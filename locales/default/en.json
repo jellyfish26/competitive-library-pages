@@ -1,37 +1,19 @@
 {
     "en": {
         "title": "jellyfish26's competitive programming library",
-        "items": [
-            {
-                "icon": "mdi-home",
-                "title": "Welcome!!",
-                "to": "/"
-            },
-            {
-                "icon": "mdi-group",
-                "title": "Data Structure",
-                "to": "/datastrcture"
-            },
-            {
-                "icon": "mdi-graph",
-                "title": "Graph",
-                "to": "/graph"
-            },
-            {
-                "icon": "mdi-math-integral-box",
-                "title": "Mathmatics",
-                "to": "/mathematics"
-            },
-            {
-                "icon": "mdi-matrix",
-                "title": "Geometry",
-                "to": "/geometry"
-            },
-            {
-                "icon": "mdi-flask-empty-plus",
-                "title": "Custom",
-                "to": "/custom"
-            }
-        ]
+        "Welcome": "Welcome!",
+        "DataStrcture": "Data Strcture",
+        "Graph": "Graph",
+        "Math": "Math",
+        "Geometry": "Geometry",
+        "Custom": "Custom",
+        "BinaryIndexedTree": "BinaryIndexedTree",
+        "UnionFind": "Disjoint-set(UnionFind)",
+        "graph_template": "template",
+        "Dijkstra": "Single Source Shortest Path(Dijkstra)",
+        "EulerTour": "EulerTour",
+        "ModInt": "ModInt",
+        "geometry_point": "Point(template)",
+        "Enumerative_EulerTour": "Enumerative EulerTour"
     }
 }

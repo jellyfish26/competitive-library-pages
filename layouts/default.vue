@@ -3,26 +3,50 @@
     <v-navigation-drawer
       v-model="drawer"
       :mini-variant="miniVariant"
+      width=320
       clipped
       fixed
       app
     >
-      <v-list>
-        <v-list-item
-          v-for="(item, i) in $t('items')"
-          :key="i"
-          :to="item.to"
-          router
-          exact
-        >
-          <v-list-item-action>
-            <v-icon>{{ item.icon }}</v-icon>
-          </v-list-item-action>
-          <v-list-item-content>
-            <v-list-item-title v-text="item.title" />
-          </v-list-item-content>
-        </v-list-item>
-      </v-list>
+      <v-container>
+        <v-list nav dense>
+          <template v-for="now_list in navigation_list">
+            <v-list-group
+              v-if="now_list.list"
+              no-action
+              :key="now_list.name"
+              :prepend-icon="now_list.icon"
+              v-model="now_list.active"
+            >
+              <template v-slot:activator>
+                <v-list-item-content>
+                  <v-list-item-title> {{ $t(now_list.name)}} </v-list-item-title>
+                </v-list-item-content>
+              </template>
+              <v-list-item
+                v-for="inside_list in now_list.list"
+                :key="inside_list.name"
+                :to="inside_list.to"
+              >
+                <v-list-item-title> {{ $t(inside_list.name) }} </v-list-item-title>
+              </v-list-item>
+            </v-list-group>
+            <v-list-item
+              v-else 
+              :key="now_list.name"
+              :to="now_list.to"
+              @click="all_list_close"
+            >
+              <v-list-item-icon>
+                <v-icon> {{ now_list.icon}} </v-icon>
+              </v-list-item-icon>
+              <v-list-item-content>
+                <v-list-item-title> {{ $t(now_list.name) }} </v-list-item-title>
+              </v-list-item-content>
+            </v-list-item>
+          </template>
+        </v-list>
+      </v-container>
     </v-navigation-drawer>
     <v-app-bar
       clipped-left
@@ -68,9 +92,17 @@
 <i18n src="~/locales/default/en.json"></i18n>
 
 <script>
+import navigation from './navigation-lists.js'
+
 export default {
+  methods: {
+    all_list_close() {
+      this.navigation_list.forEach( now_list => now_list.open = false)
+    }
+  },
   data () {
     return {
+      navigation_list: navigation.data().navigation_list,
       clipped: true,
       drawer: false,
       fixed: false,

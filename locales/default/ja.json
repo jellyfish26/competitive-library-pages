@@ -1,37 +1,19 @@
 {
     "ja": {
         "title": "くらげ〜の競プロライブラリ",
-        "items": [
-            {
-                "icon": "mdi-home",
-                "title": "ようこそ！！",
-                "to": "/"
-            },
-            {
-                "icon": "mdi-group",
-                "title": "データ構造",
-                "to": "/datastrcture"
-            },
-            {
-                "icon": "mdi-graph",
-                "title": "グラフ",
-                "to": "/graph"
-            },
-            {
-                "icon": "mdi-math-integral-box",
-                "title": "数学",
-                "to": "/mathematics"
-            },
-            {
-                "icon": "mdi-matrix",
-                "title": "幾何",
-                "to": "/geometry"
-            },
-            {
-                "icon": "mdi-flask-empty-plus",
-                "title": "カスタム",
-                "to": "/custom"
-            }
-        ]
+        "Welcome": "ようこそ！",
+        "DataStrcture": "データ構造",
+        "Graph": "グラフ",
+        "Math": "数学",
+        "Geometry": "幾何",
+        "Custom": "カスタム",
+        "BinaryIndexedTree": "BinaryIndexedTree",
+        "UnionFind": "素集合データ構造(UnionFind)",
+        "graph_template": "テンプレート",
+        "Dijkstra": "単一始点最短路(ダイクストラ)",
+        "EulerTour": "オイラーツアー",
+        "ModInt": "ModInt",
+        "geometry_point": "点(テンプレート)",
+        "Enumerative_EulerTour": "数え上げオイラーツアー"
     }
 }
