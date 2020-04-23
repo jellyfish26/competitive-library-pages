@@ -1,4 +1,5 @@
 import colors from 'vuetify/es5/util/colors'
+import i18n_config from './i18n.config.js'
 
 export default {
   mode: 'spa',
@@ -42,6 +43,7 @@ export default {
   ** Nuxt.js modules
   */
   modules: [
+    [ 'nuxt-i18n', i18n_config ]
   ],
   /*
   ** vuetify module configuration
@@ -50,7 +52,7 @@ export default {
   vuetify: {
     customVariables: ['~/assets/variables.scss'],
     theme: {
-      dark: true,
+      dark: false,
       themes: {
         dark: {
           primary: colors.blue.darken2,

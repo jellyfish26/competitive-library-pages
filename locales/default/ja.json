@@ -1,0 +1,37 @@
+{
+    "ja": {
+        "title": "くらげ〜の競プロライブラリ",
+        "items": [
+            {
+                "icon": "mdi-home",
+                "title": "ようこそ！！",
+                "to": "/"
+            },
+            {
+                "icon": "mdi-group",
+                "title": "データ構造",
+                "to": "/datastrcture"
+            },
+            {
+                "icon": "mdi-graph",
+                "title": "グラフ",
+                "to": "/graph"
+            },
+            {
+                "icon": "mdi-math-integral-box",
+                "title": "数学",
+                "to": "/mathematics"
+            },
+            {
+                "icon": "mdi-matrix",
+                "title": "幾何",
+                "to": "/geometry"
+            },
+            {
+                "icon": "mdi-flask-empty-plus",
+                "title": "カスタム",
+                "to": "/custom"
+            }
+        ]
+    }
+}
