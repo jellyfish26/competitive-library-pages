@@ -48,6 +48,7 @@
         </v-list>
       </v-container>
     </v-navigation-drawer>
+    
     <v-app-bar
       clipped-left
       clipped-right
@@ -57,6 +58,8 @@
       <v-app-bar-nav-icon @click.stop="drawer = !drawer" />
       <v-toolbar-title v-text="$t('title')" />
       <v-spacer />
+      <v-btn text right color="primary" v-if="$i18n.locale == 'ja'"><nuxt-link :to="switchLocalePath('en')">English</nuxt-link></v-btn>
+      <v-btn text right color="primary" v-else><nuxt-link :to="switchLocalePath('ja')">日本語</nuxt-link></v-btn>
       <v-btn
         icon
         @click.stop="rightDrawer = !rightDrawer"
@@ -69,6 +72,7 @@
         <nuxt />
       </v-container>
     </v-content>
+    
     <v-navigation-drawer
       v-model="rightDrawer"
       :right="right"
