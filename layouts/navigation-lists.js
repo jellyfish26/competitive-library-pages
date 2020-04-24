@@ -4,28 +4,28 @@ export default {
             navigation_list: [
                 {
                     icon: 'mdi-home',
-                    name: 'Welcome',
-                    to: '/',
+                    name: 'welcome',
+                    to: 'index',
                 },
                 {
                     icon: 'mdi-group',
-                    name: 'DataStrcture',
+                    name: 'data_strcture',
                     to: '/datastrcture',
                     open: false,
                     list: [
                         {
-                            name: 'BinaryIndexedTree',
-                            to: '/datastrcture/BIT'
+                            name: 'binary_indexed_tree',
+                            to: 'datastrcture-BinaryIndexdedTree'
                         },
                         {
-                            name: 'UnionFind',
+                            name: 'union_find',
                             to: '/datastrcture/UnionFind'
                         }
                     ]
                 },
                 {
                     icon: 'mdi-graph',
-                    name: 'Graph',
+                    name: 'graph',
                     to: '/graph',
                     open: false,
                     list: [
@@ -34,30 +34,30 @@ export default {
                             to: '/graph/template'
                         },
                         {
-                            name: 'Dijkstra',
+                            name: 'dijkstra',
                             to: '/graph/Dijkstra'
                         },
                         {
-                            name: 'EulerTour',
+                            name: 'euler_tour',
                             to: '/graph/EulerTour'
                         }
                     ]
                 },
                 {
                     icon: 'mdi-math-integral-box',
-                    name: 'Math',
+                    name: 'math',
                     to: '/mathematics',
                     open: false,
                     list: [
                         {
-                            name: 'ModInt',
+                            name: 'mod_int',
                             to: '/mathematics/ModInt'
                         },
                     ]
                 },
                 {
                     icon: 'mdi-matrix',
-                    name: 'Geometry',
+                    name: 'geometry',
                     to: '/geometry',
                     open: false,
                     list: [
@@ -69,12 +69,12 @@ export default {
                 },
                 {
                     icon: 'mdi-flask-empty-plus',
-                    name: 'Custom',
+                    name: 'custom',
                     to: '/custom',
                     open: false,
                     list: [
                         {
-                            name: 'Enumerative_EulerTour',
+                            name: 'enumerative_euler_tour',
                             to: '/custom/EnumerativeEulerTour'
                         },
                     ]

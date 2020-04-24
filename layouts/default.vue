@@ -1,5 +1,5 @@
 <template>
-  <v-app dark>
+  <v-app>
     <v-navigation-drawer
       v-model="drawer"
       :mini-variant="miniVariant"
@@ -26,7 +26,7 @@
               <v-list-item
                 v-for="inside_list in now_list.list"
                 :key="inside_list.name"
-                :to="inside_list.to"
+                :to="localePath(inside_list.to)"
               >
                 <v-list-item-title> {{ $t(inside_list.name) }} </v-list-item-title>
               </v-list-item>
@@ -34,7 +34,7 @@
             <v-list-item
               v-else 
               :key="now_list.name"
-              :to="now_list.to"
+              :to="localePath(now_list.to)"
               @click="all_list_close"
             >
               <v-list-item-icon>
@@ -80,6 +80,7 @@
       fixed
       app
     >
+      <p> {{ $t('right_navigation_drawer') }} </p>
       <v-list>
       </v-list>
     </v-navigation-drawer>
@@ -87,7 +88,7 @@
       :fixed="fixed"
       app
     >
-      <span>&copy; {{ new Date().getFullYear() }}</span>
+      <span>Copyright. &copy; 2020 - {{ new Date().getFullYear() }} jellyfish26 All rights reserved</span>
     </v-footer>
   </v-app>
 </template>

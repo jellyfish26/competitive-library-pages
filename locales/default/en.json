@@ -1,19 +1,20 @@
 {
     "en": {
         "title": "jellyfish26's competitive programming library",
-        "Welcome": "Welcome!",
-        "DataStrcture": "Data Strcture",
-        "Graph": "Graph",
-        "Math": "Math",
-        "Geometry": "Geometry",
-        "Custom": "Custom",
-        "BinaryIndexedTree": "BinaryIndexedTree",
-        "UnionFind": "Disjoint-set(UnionFind)",
+        "right_navigation_drawer": "The navigation here is under construction. I'm going to set up the correct answers and library verify using the library.",
+        "welcome": "Welcome!",
+        "data_strcture": "Data Strcture",
+        "graph": "Graph",
+        "math": "Math",
+        "geometry": "Geometry",
+        "custom": "Custom",
+        "binary_indexed_tree": "BinaryIndexedTree",
+        "union_find": "Disjoint-set(UnionFind)",
         "graph_template": "template",
-        "Dijkstra": "Single Source Shortest Path(Dijkstra)",
-        "EulerTour": "EulerTour",
-        "ModInt": "ModInt",
+        "dijkstra": "Single Source Shortest Path(Dijkstra)",
+        "euler_tour": "EulerTour",
+        "mod_int": "ModInt",
         "geometry_point": "Point(template)",
-        "Enumerative_EulerTour": "Enumerative EulerTour"
+        "enumerative_euler_tour": "Enumerative EulerTour"
     }
 }
