@@ -12,6 +12,28 @@
         "aboue_page": "About the library page",
         "page_license_description": "I have no idea about this page at the moment.",
         "about_library": "About the Library",
-        "library_license_description": "If you don't have a lot of Verify, it may be buggy, but you can use it freely. It doesn't matter if I'm in the contest. However, please use the following copyright notice when you use it."
+        "library_license_description": "If you don't have a lot of Verify, it may be buggy, but you can use it freely. It doesn't matter if I'm in the contest. However, please use the following copyright notice when you use it.",
+        "algorithms": [
+            {
+                "classification_name" : "Data Strcture",
+                "description" : "As it is, it classifies data structures that can be handled at high speed, which are not in the standard library."
+            },
+            {
+                "classification_name" : "Graph",
+                "description" : "It categorizes those that deal with graph problems. In the future, we may categorize the problems with trees separately."
+            },
+            {
+                "classification_name" : "Mathematics",
+                "description" : "Er, mathematics."
+            },
+            {
+                "classification_name" : "Geometry",
+                "description" : "Yes, it's geometry. Algebra might be in there too (I don't know any algebra problems)"
+            },
+            {
+                "classification_name" : "Custom",
+                "description" : "The data structures and algorithms that are rarely used are categorized here."
+            }
+        ]
     }
 }

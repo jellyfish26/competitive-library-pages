@@ -9,6 +9,16 @@
       <p> {{ $t('use_site_description') }} </p>
     </section>
     <section class="mb-12">
+      <h2> {{ $t('classification') }} </h2>
+      <div
+        v-for="now_algorithm in $t('algorithms')"
+        class="mx-auto"
+      >
+        <h3> {{ now_algorithm.classification_name }} </h3>
+        <p> {{ now_algorithm.description }} </p>
+      </div>
+    </section>
+    <section class="mb-12">
       <h2> {{ $t('information') }} </h2>
       <v-container fluid>
         <v-row>
