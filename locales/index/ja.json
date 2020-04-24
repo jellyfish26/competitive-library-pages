@@ -13,7 +13,7 @@
         "page_license_description": "このページに関しては現時点では何も考えていないです．",
         "about_library": "ライブラリについて",
         "library_license_description": "たくさんVerifyが無いやつはバグってるかもしれないけど，自由に使って構いません〜．僕がコンテストに出ても問題ないです．ただ，使うときは下記の著作権表記をお願いします．",
-        "classification": "各分類の説明",
+        "index_classification": "各分類の説明",
         "algorithms": [
             {
                 "classification_name" : "データ構造",

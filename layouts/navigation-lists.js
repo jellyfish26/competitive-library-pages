@@ -15,7 +15,7 @@ export default {
                     list: [
                         {
                             name: 'binary_indexed_tree',
-                            to: 'datastrcture-BinaryIndexdedTree'
+                            to: 'datastrcture-BinaryIndexedTree'
                         },
                         {
                             name: 'union_find',

@@ -9,7 +9,7 @@
       <p> {{ $t('use_site_description') }} </p>
     </section>
     <section class="mb-12">
-      <h2> {{ $t('classification') }} </h2>
+      <h2> {{ $t('index_classification') }} </h2>
       <div
         v-for="now_algorithm in $t('algorithms')"
         class="mx-auto"
@@ -66,9 +66,7 @@
       <p> {{ $t('page_license_description') }} </p>
       <h3> {{ $t('about_library') }} </h3>
       <p> {{ $t('library_license_description') }} </p>
-      <div class="v-markup v-card v-card--outlined v-sheet theme--light grey darken-3">
-        <prism language="cpp">{{ source_code }} </prism>
-      </div>
+      <SourceView src="https://raw.githubusercontent.com/jellyfish26/competitive-library/master/copyright_notice.cpp"></SourceView>
     </section>
   </v-responsive>
 </template>
@@ -77,24 +75,11 @@
 <i18n src="~/locales/index/en.json"></i18n>
 
 <script>
-import '~/plugin/prism.js'
-import 'prismjs'
-import 'prismjs/components/prism-c.js'
-import 'prismjs/components/prism-cpp.js'
-import axios from 'axios'
+import SourceView from '~/components/SourceView.vue'
 
 export default {
   components: {
-    Prism: () => import('vue-prism-component')
-  },
-  data() {
-    return {
-      source_code: ""
-    }
-  },
-  mounted() {
-    axios.get('https://raw.githubusercontent.com/jellyfish26/competitive-library/master/copyright_notice.cpp')
-      .then(response => this.source_code = response.data)
+    SourceView: SourceView
   },
   head() {
     return {
