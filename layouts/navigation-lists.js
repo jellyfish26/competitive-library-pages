@@ -19,7 +19,7 @@ export default {
             },
             {
               name: 'union_find',
-              to: '/datastrcture/UnionFind'
+              to: 'datastrcture-UnionFind'
             }
           ]
         },

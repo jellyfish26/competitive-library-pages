@@ -1,0 +1,14 @@
+{
+    "en": {
+        "library_name": "Disjoint-set(Union-Find)",
+        "overview": "UnionFind is a data structure that manages a set as a tree structure and performs fast judgment.",
+        "explanation_content": "UnionFind is a data structure that manages a set as a tree structure and allows us to merge groups and determine whether they belong to the same group by $O(a(N))$($a$ is an inverse function of Ackermann's).",
+        "constructor_explanation": "Constructor, initialized with the number of data holdings $size$.",
+        "same_explanation": "Determines whether $x$ and $y$ belong to the same set.",
+        "2times": "Very Light(2times)",
+        "unite_explanation": "Merge the set to which $x$ belongs and the set to which $y$ belongs. If it has already been merged, $false$ is the return value.",
+        "unite_constant_times": "Very Light(same function)",
+        "find_explanation": "Returns the root of the tree structure of the set to which $i$ belongs, and further updates the data.",
+        "size_explanation": "Calculates the size of the set to which $i$ belongs."
+    }
+}
