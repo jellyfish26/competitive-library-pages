@@ -1,0 +1,14 @@
+{
+    "ja": {
+        "library_name": "素集合データ構造(Union-Find)",
+        "overview": "UnionFindとは，グループ分け(集合)を木構造で管理し，高速に判定等を行なうデータ構造である．",
+        "explanation_content": "UnionFindは，集合を木構造で管理し，グループの併合や同じグループに属しているかの判定を$O(a(N))$($a$はアッカーマンの逆関数)で行なうことが出来るデータ構造である．",
+        "constructor_explanation": "コンストラクタ，データ保持数$size$で初期化",
+        "same_explanation": "$x$と$y$が同じ集合に属しているか判定する．",
+        "2times": "とても軽い(2倍)",
+        "unite_explanation": "$x$が属する集合と$y$が属する集合を併合する．すでに併合されているなら$false$が返り値となる．",
+        "unite_constant_times": "とても軽い(same関数)",
+        "find_explanation": "$i$が属する集合の木構造の根を返し，更にデータの更新を行なう．",
+        "size_explanation": "$i$が属する集合の大きさを求める．"
+    }
+}

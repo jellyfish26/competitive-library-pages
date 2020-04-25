@@ -1,0 +1,41 @@
+{
+    "ja": {
+        "welcome": "ようこそ〜！",
+        "first_description": "このサイトはくらげ〜の競プロ用のライブラリです．僕が出てないコンテストなら自由につかって大丈夫ですw  使うときは下のライセンスを見てください．",
+        "use_site": "このサイトの使い方",
+        "use_site_description": "このサイトはとてもシンプルです．左側のナビゲーションから見たいデータ構造やアルゴリズムなどを選択すると表示されます！！画期的！右側のナビゲーションは工事中です．予定は右のナビゲーションを見てください．",
+        "use_site_description_2": "コードはGitHubのLibraryレポジトリのmasterブランチのコードそのままですが，このページの説明を更新していない可能性があります．（ライブラリページの方が更新が遅いと思う，気まぐれに更新してるから）",
+        "information": "情報",
+        "my_twitter": "私のTwitter",
+        "page_repo": "このページのリポジトリ",
+        "lib_repo": "ライブラリのリポジトリ",
+        "license": "ライセンス",
+        "aboue_page": "ライブラリページに関して",
+        "page_license_description": "このページに関しては現時点では何も考えていないです．",
+        "about_library": "ライブラリについて",
+        "library_license_description": "たくさんVerifyが無いやつはバグってるかもしれないけど，自由に使って構いません〜．僕がコンテストに出ても問題ないです．ただ，使うときは下記の著作権表記をお願いします．",
+        "index_classification": "各分類の説明",
+        "algorithms": [
+            {
+                "classification_name" : "データ構造",
+                "description" : "そのままですね，標準ライブラリには無い，高速に扱えるデータ構造を分類しています．"
+            },
+            {
+                "classification_name" : "グラフ",
+                "description" : "グラフ問題を扱うものを分類しています．将来的には木に対する問題は別で分類するかもしれません．"
+            },
+            {
+                "classification_name" : "数学",
+                "description" : "えー，数学です．"
+            },
+            {
+                "classification_name" : "幾何",
+                "description" : "うん，幾何ですね．代数も入るかも(代数問題知らない)"
+            },
+            {
+                "classification_name" : "カスタム",
+                "description" : "あまり使わないデータ構造やアルゴリズム等をここに分類しています．"
+            }
+        ]
+    }
+}

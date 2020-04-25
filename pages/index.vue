@@ -1,92 +1,98 @@
 <template>
-  <v-layout
-    column
-    justify-center
-    align-center
-  >
-    <v-flex
-      xs12
-      sm8
-      md6
-    >
-      <div class="text-center">
-        <logo />
-        <vuetify-logo />
+  <v-responsive class="mx-auto" max-width=1024>
+  　<section class="mb-12">
+      <h1 class="display-1 font-weight-bold"> {{ $t('welcome') }} </h1>
+      <p class="font-weight-right title"> {{ $t('first_description') }} </p>
+    </section>
+    <section class="mb-12">
+      <h2> {{ $t('use_site') }} </h2>
+      <p> {{ $t('use_site_description') }} </p>
+      <p> {{ $t('use_site_description_2') }} </P>
+    </section>
+    <section class="mb-12">
+      <h2> {{ $t('index_classification') }} </h2>
+      <div
+        v-for="now_algorithm in $t('algorithms')"
+        class="mx-auto"
+      >
+        <h3> {{ now_algorithm.classification_name }} </h3>
+        <p> {{ now_algorithm.description }} </p>
       </div>
-      <v-card>
-        <v-card-title class="headline">
-          Welcome to the Vuetify + Nuxt.js template
-        </v-card-title>
-        <v-card-text>
-          <p>Vuetify is a progressive Material Design component framework for Vue.js. It was designed to empower developers to create amazing applications.</p>
-          <p>
-            For more information on Vuetify, check out the <a
-              href="https://vuetifyjs.com"
-              target="_blank"
+    </section>
+    <section class="mb-12">
+      <h2> {{ $t('information') }} </h2>
+      <v-container fluid>
+        <v-row>
+          <v-col cols="12">
+            <v-row
+              align="center"
+              justify="space-around"
+              style="height: auto"
             >
-              documentation
-            </a>.
-          </p>
-          <p>
-            If you have questions, please join the official <a
-              href="https://chat.vuetifyjs.com/"
-              target="_blank"
-              title="chat"
-            >
-              discord
-            </a>.
-          </p>
-          <p>
-            Find a bug? Report it on the github <a
-              href="https://github.com/vuetifyjs/vuetify/issues"
-              target="_blank"
-              title="contribute"
-            >
-              issue board
-            </a>.
-          </p>
-          <p>Thank you for developing with Vuetify and I look forward to bringing more exciting features in the future.</p>
-          <div class="text-xs-right">
-            <em><small>&mdash; John Leider</small></em>
-          </div>
-          <hr class="my-3">
-          <a
-            href="https://nuxtjs.org/"
-            target="_blank"
-          >
-            Nuxt Documentation
-          </a>
-          <br>
-          <a
-            href="https://github.com/nuxt/nuxt.js"
-            target="_blank"
-          >
-            Nuxt GitHub
-          </a>
-        </v-card-text>
-        <v-card-actions>
-          <v-spacer />
-          <v-btn
-            color="primary"
-            nuxt
-            to="/inspire"
-          >
-            Continue
-          </v-btn>
-        </v-card-actions>
-      </v-card>
-    </v-flex>
-  </v-layout>
+              <v-btn
+                href="https://twitter.com/jellyfish_26"
+                target="_blank"
+                class="ma-3 pa-6"
+                color="light-blue lighten-2"
+                rounded
+              >
+                <v-icon> mdi-twitter </v-icon>
+                {{ $t('my_twitter') }}
+              </v-btn>
+              <v-btn
+                href="https://github.com/jellyfish26/competitive-library-pages"
+                target="_blank"
+                class="ma-3 pa-6"
+                color="amber darken-2"
+                rounded
+              >
+                <v-icon> mdi-github </v-icon>
+                {{ $t('page_repo') }}
+              </v-btn>
+              <v-btn
+                href="https://github.com/jellyfish26/competitive-library"
+                target="_blank"
+                class="ma-3 pa-6"
+                color="light-green lighten-1"
+                rounded
+              >
+                <v-icon> mdi-github </v-icon>
+                {{ $t('lib_repo') }}
+              </v-btn>
+            </v-row>
+          </v-col>
+        </v-row>
+      </v-container>
+    </section>
+    <section class="mb-12">
+      <h2> {{ $t('license') }} </h2>
+      <h3> {{ $t('aboue_page') }} </h3>
+      <p> {{ $t('page_license_description') }} </p>
+      <h3> {{ $t('about_library') }} </h3>
+      <p> {{ $t('library_license_description') }} </p>
+      <SourceView 
+        src="https://raw.githubusercontent.com/jellyfish26/competitive-library/master/copyright_notice.cpp"
+        link="https://github.com/jellyfish26/competitive-library/blob/master/copyright_notice.cpp"
+      >
+      </SourceView>
+    </section>
+  </v-responsive>
 </template>
 
+<i18n src="~/locales/index/ja.json"></i18n>
+<i18n src="~/locales/index/en.json"></i18n>
+
 <script>
-import Logo from '~/components/Logo.vue'
-import VuetifyLogo from '~/components/VuetifyLogo.vue'
+import SourceView from '~/components/SourceView.vue'
 
 export default {
   components: {
-    Logo,
-    VuetifyLogo
+    SourceView: SourceView
+  },
+  head() {
+    return {
+      title: this.$t('welcome'),
+    }
   }
 }
 </script>

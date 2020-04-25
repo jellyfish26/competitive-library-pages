@@ -1,0 +1,45 @@
+name: deploy page
+
+on:
+  push:
+    branches:
+      - master
+      - add-page
+
+jobs:
+  deploy:
+    name: Deploy
+
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v1
+
+      - name: Deployment Destination Settings
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          git clone https://jellyfish26:${GITHUB_TOKEN}@github.com/jellyfish26/competitive-library.git
+          cd ./competitive-library
+          git switch gh-pages
+          cd ..
+          mv competitive-library dist
+
+      - name: Yarn Install
+        run: yarn install
+      
+      - name: Build (Generate)
+        run: yarn generate
+
+      - name: Deploy 
+        run: |
+          cd ./dist
+          git config user.name "jellyfish26"
+          git config user.email "jellyfish0162@gmail.com"
+          git add --all
+          git commit -m "Pages Update!"
+          git push origin gh-pages
+
+          
+
+

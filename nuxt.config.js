@@ -1,4 +1,5 @@
 import colors from 'vuetify/es5/util/colors'
+import i18n_config from './i18n.config.js'
 
 export default {
   mode: 'spa',
@@ -8,6 +9,10 @@ export default {
   head: {
     titleTemplate: '%s - ' + process.env.npm_package_name,
     title: process.env.npm_package_name || '',
+    script: [
+      { src: "https://polyfill.io/v3/polyfill.min.js?features=es6"},
+      { src: "https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS_CHTML"}
+    ],
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
@@ -26,10 +31,15 @@ export default {
   */
   css: [
   ],
+
+  router: {
+    base: '/competitive-library/'
+  },
   /*
   ** Plugins to load before mounting the App
   */
   plugins: [
+    '~/plugin/prism'
   ],
   /*
   ** Nuxt.js dev-modules
@@ -42,15 +52,15 @@ export default {
   ** Nuxt.js modules
   */
   modules: [
+    [ 'nuxt-i18n', i18n_config ]
   ],
   /*
   ** vuetify module configuration
   ** https://github.com/nuxt-community/vuetify-module
   */
   vuetify: {
-    customVariables: ['~/assets/variables.scss'],
     theme: {
-      dark: true,
+      dark: false,
       themes: {
         dark: {
           primary: colors.blue.darken2,
