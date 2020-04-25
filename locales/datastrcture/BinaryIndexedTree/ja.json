@@ -1,0 +1,15 @@
+{
+    "ja": {
+        "library_name": "BIT(BinaryIndexedTree)",
+        "overview": "BITはある区間の総和を$O(log{N})$で取得することが出来るデータ構造である．",
+        "explanation_content": "BITはFenwick木とも呼ばれ，数列に対して値を足す操作と，区間和を求める操作を$O(log{N})$，すなわち対数時間で行なうことが出来るデータ構造である．セグメント木に比べると実装が単純なので定数倍も軽い．",
+        "test": "テスト",
+        "reference_about": "型Tは基本的にintかlong longかmodint",
+        "constructor_explanation": "コンストラクタ，データ保持数$size$で初期化",
+        "update_explanation": "$i$番目の値に$x$を足す",
+        "sum_explanation": "閉区間$[0, i]$の区間和を求める",
+        "sum_all_explanation": "数列の和を求める",
+        "query_explanation": "半開区間$[l, r)$の区間和を求める",
+        "2times": "とても軽い$(2倍)$"
+    }
+}

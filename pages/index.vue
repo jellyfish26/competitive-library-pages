@@ -1,7 +1,7 @@
 <template>
   <v-responsive class="mx-auto" max-width=1024>
   　<section class="mb-12">
-      <h1> {{ $t('welcome') }} </h1>
+      <h1 class="display-1 font-weight-bold"> {{ $t('welcome') }} </h1>
       <p class="font-weight-right title"> {{ $t('first_description') }} </p>
     </section>
     <section class="mb-12">

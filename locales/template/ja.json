@@ -1,0 +1,12 @@
+{
+    "ja": {
+        "explanation": "説明",
+        "dependent_library": "依存ライブラリ",
+        "source_code": "ソースコード",
+        "reference": "リファレンス",
+        "function": "関数",
+        "calc_amount": "計算量",
+        "constant_multiple": "定数倍",
+        "very_light": "とても軽い"
+    }
+}

@@ -1,0 +1,12 @@
+{
+    "en": {
+        "explanation": "Explanation",
+        "dependent_library": "Dependent Library",
+        "source_code": "Source Code",
+        "reference": "Reference",
+        "function": "Function",
+        "calc_amount": "Calculated Amount",
+        "constant_multiple": "Constant Multiple",
+        "very_light": "Very Light"
+    }
+}
