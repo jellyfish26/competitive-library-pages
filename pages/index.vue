@@ -67,7 +67,11 @@
       <p> {{ $t('page_license_description') }} </p>
       <h3> {{ $t('about_library') }} </h3>
       <p> {{ $t('library_license_description') }} </p>
-      <SourceView src="https://raw.githubusercontent.com/jellyfish26/competitive-library/master/copyright_notice.cpp"></SourceView>
+      <SourceView 
+        src="https://raw.githubusercontent.com/jellyfish26/competitive-library/master/copyright_notice.cpp"
+        link="https://github.com/jellyfish26/competitive-library/blob/master/copyright_notice.cpp"
+      >
+      </SourceView>
     </section>
   </v-responsive>
 </template>
