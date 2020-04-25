@@ -1,12 +1,6 @@
 export default {
     data () {
       return {
-        dependent_libraries: [
-          {
-            "name": "test",
-            "link": "index"
-          },
-        ],
         reference_about: "reference_about",
         func_reference: [
           {
