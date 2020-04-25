@@ -7,6 +7,7 @@
     <section class="mb-12">
       <h2> {{ $t('use_site') }} </h2>
       <p> {{ $t('use_site_description') }} </p>
+      <p> {{ $t('use_site_description_2') }} </P>
     </section>
     <section class="mb-12">
       <h2> {{ $t('index_classification') }} </h2>
