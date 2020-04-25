@@ -31,6 +31,10 @@ export default {
   */
   css: [
   ],
+
+  router: {
+    base: '/competitive-library/'
+  },
   /*
   ** Plugins to load before mounting the App
   */
