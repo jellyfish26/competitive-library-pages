@@ -32,6 +32,8 @@ jobs:
         run: yarn generate
 
       - name: Deploy 
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           cd ./competitive-library
           rm * -r
@@ -40,7 +42,7 @@ jobs:
           git config user.email "jellyfish0162@gmail.com"
           git add --all
           git commit -m "Pages Update!"
-          git push origin gh-pages
+          git push https://jellyfish26:${GITHUB_TOKEN}@github.com/jellyfish26/competitive-library.git gh-pages
 
           
 
