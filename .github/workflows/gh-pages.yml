@@ -30,6 +30,7 @@ jobs:
           git switch gh-pages
           rm * -r
           cp ../dist/* . -r
+          touch .nojekyll
           git add --all
           git config user.name "jellyfish26"
           git config user.email "jellyfish0162@gmail.com"
