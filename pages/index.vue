@@ -31,6 +31,7 @@
             >
               <v-btn
                 href="https://twitter.com/jellyfish_26"
+                target="_blank"
                 class="ma-3 pa-6"
                 color="light-blue lighten-2"
                 rounded
@@ -40,6 +41,7 @@
               </v-btn>
               <v-btn
                 href="https://github.com/jellyfish26/competitive-library-pages"
+                target="_blank"
                 class="ma-3 pa-6"
                 color="amber darken-2"
                 rounded
@@ -49,6 +51,7 @@
               </v-btn>
               <v-btn
                 href="https://github.com/jellyfish26/competitive-library"
+                target="_blank"
                 class="ma-3 pa-6"
                 color="light-green lighten-1"
                 rounded
