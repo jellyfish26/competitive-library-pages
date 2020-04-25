@@ -15,34 +15,27 @@ jobs:
     steps:
       - uses: actions/checkout@v1
 
-      - name: Deployment Destination Settings
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: |
-          cd ./
-          git clone https://jellyfish26:${GITHUB_TOKEN}@github.com/jellyfish26/competitive-library.git
-          cd ./competitive-library
-          git switch gh-pages
-          cd ..
-
       - name: Yarn Install
         run: yarn install
       
       - name: Build (Generate)
         run: yarn generate
 
-      - name: Deploy 
+      - name: Settings and Deploy
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
         run: |
+          git clone https://x-access-token:${ACCESS_TOKEN}@github.com/jellyfish26/competitive-library.git
           cd ./competitive-library
+          git switch gh-pages
           rm * -r
           cp ../dist/* . -r
+          git add --all
           git config user.name "jellyfish26"
           git config user.email "jellyfish0162@gmail.com"
-          git add --all
           git commit -m "Pages Update!"
-          git push https://jellyfish26:${GITHUB_TOKEN}@github.com/jellyfish26/competitive-library.git gh-pages
+          git push https://x-access-token:${ACCESS_TOKEN}@github.com/jellyfish26/competitive-library.git gh-pages
+          
 
           
 
