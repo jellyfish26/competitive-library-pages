@@ -1,0 +1,17 @@
+{
+    "ja": {
+        "library_name": "オイラーツアー",
+        "overview": "木を根からDFSするときに通る頂点を数列で表したもの．",
+        "explanation_content": "木を根からDFSするときに通る頂点を数列で表したもの．木上の区間を数列の区間をうまく対応させ，主に部分木に対応するクエリが処理出来る（部分木に対する数え上げは，数え上げオイラーツアーを参照）",
+        "reference_about": "木以外は受け付けてないので，注意が必要．型TはグラフのT",
+        "2times": "とても軽い(2倍)",
+        "graph_template": "テンプレート",
+        "constructor_explanation": "コンストラクタ，グラフと頂点数で初期化",
+        "build_explanation": "ツアーを開始する",
+        "index_of_vertex_explanation": "頂点$v$のpre-orderとpost-orderを半開区間で求める",
+        "pre_order_explanation": "頂点$v$のpre-orderを求める",
+        "post_order_explanation": "頂点$v$のpost-orderを求める",
+        "operator_reference_explanation": "数列上の$i$番目の値を返す",
+        "size_explanation": "数列のサイズを返す"
+    }
+}
