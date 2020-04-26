@@ -31,7 +31,7 @@ export default {
           list: [
             {
               name: 'graph_template',
-              to: '/graph/template'
+              to: 'graph-template'
             },
             {
               name: 'dijkstra',
