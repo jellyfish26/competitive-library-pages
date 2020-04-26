@@ -63,7 +63,7 @@ export default {
           list: [
             {
               name: 'geometry_point',
-              to: '/geometry/Point'
+              to: 'geometry-Point'
             },
           ]
         },
