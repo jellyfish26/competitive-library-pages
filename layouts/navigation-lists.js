@@ -35,7 +35,7 @@ export default {
             },
             {
               name: 'dijkstra',
-              to: '/graph/Dijkstra'
+              to: 'graph-Dijkstra'
             },
             {
               name: 'euler_tour',

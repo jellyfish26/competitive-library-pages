@@ -6,6 +6,7 @@
         "unweight_constructor_explanation": "コンストラクタ，データ保持数$size$で初期化する．iがfalseの場合は無向グラフを作成，iがtrueの場合は有向グラフを作成．",
         "unweight_add_edge_explanation": "$s$から$t$に対して辺を張る．",
         "weight_constructor_explanation": "コンストラクタ，データ保持数$size$で初期化する．iがfalseの場合は無向グラフを作成，iがtrueの場合は有向グラフを作成．",
-        "weight_add_edge_explanation": "$s$から$t$に対してコスト$c$の辺を張る．"
+        "weight_add_edge_explanation": "$s$から$t$に対してコスト$c$の辺を張る．",
+        "reference_about": "型Tはコストの型"
     }
 }

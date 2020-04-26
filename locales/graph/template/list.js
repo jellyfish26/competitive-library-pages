@@ -1,6 +1,7 @@
 export default {
     data () {
       return {
+        reference_about: "reference_about",
         func_reference: [
           {
             "function": "UnWeightedGraph$(size, i)$",

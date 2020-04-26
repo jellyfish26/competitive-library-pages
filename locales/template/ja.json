@@ -7,6 +7,7 @@
         "function": "関数",
         "calc_amount": "計算量",
         "constant_multiple": "定数倍",
-        "very_light": "とても軽い"
+        "very_light": "とても軽い",
+        "light": "軽い"
     }
 }

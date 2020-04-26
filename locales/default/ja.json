@@ -11,7 +11,7 @@
         "binary_indexed_tree": "Binary-Indexed-Tree",
         "union_find": "素集合データ構造(Union-Find)",
         "graph_template": "テンプレート",
-        "dijkstra": "単一始点最短路(ダイクストラ)",
+        "dijkstra": "単一始点最短経路(ダイクストラ)",
         "euler_tour": "オイラーツアー",
         "mod_int": "ModInt",
         "geometry_point": "点(テンプレート)",

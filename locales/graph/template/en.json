@@ -6,6 +6,7 @@
         "unweight_constructor_explanation": "Constructor, initialized with the number of data holdings $size$, creating an undirected graph if $i$ is false, or a directed graph if $i$ is true.",
         "unweight_add_edge_explanation": "Put an edge from $s$ to $t$.",
         "weight_constructor_explanation": "Constructor, initialized with the number of data holdings $size$, creating an undirected graph if $i$ is false, or a directed graph if $i$ is true.",
-        "weight_add_edge_explanation": "Put an edge of cost $c$ from $s$ to $t$."
+        "weight_add_edge_explanation": "Put an edge of cost $c$ from $s$ to $t$.",
+        "reference_about": "Type T is the type of cost"
     }
 }
