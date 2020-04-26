@@ -39,7 +39,7 @@ export default {
             },
             {
               name: 'euler_tour',
-              to: '/graph/EulerTour'
+              to: 'graph-EulerTour'
             }
           ]
         },
@@ -51,7 +51,7 @@ export default {
           list: [
             {
               name: 'mod_int',
-              to: '/mathematics/ModInt'
+              to: 'mathematics-ModInt'
             },
           ]
         },

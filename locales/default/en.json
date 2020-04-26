@@ -15,6 +15,6 @@
         "euler_tour": "EulerTour",
         "mod_int": "ModInt",
         "geometry_point": "Point(template)",
-        "enumerative_euler_tour": "Enumerative EulerTour"
+        "enumerative_euler_tour": "CountUp EulerTour"
     }
 }
