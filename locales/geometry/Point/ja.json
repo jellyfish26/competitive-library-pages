@@ -1,0 +1,16 @@
+{
+    "ja": {
+        "library_name": "点（一応幾何問題のテンプレート）",
+        "overview": "幾何問題を扱うときの点．つまり幾何問題を扱うときに必要なライブラリ．幾何に関するライブラリのほとんどがこのライブラリに依存すると思う．",
+        "explanation_content": "点ですね．頂点でもok．まあ，厳密に言うならベクトルかな",
+        "reference_about": "下に書いてないやつはコードみて察してください．各operatorも，ただただ加算とかしてるだけ",
+        "dot_explanation": "$p$との内積を求める",
+        "cross_explanation": "$p$との外積を求める",
+        "before_norm_explanation": "ノルム計算の前を求める．すなわち$x^2 + y^2$",
+        "norm_explanation": "ノルムを求める，すなわち$\\sqrt{x^2 + y^2}$",
+        "rotate_orthant_explanation": "象限回転を行なう．すなわち象限の移動",
+        "rotate_theta_explanation": "半時計回りに$\\theta$回転を行なう(象限にそって回転させる)",
+        "orthant_explanation": "象限を求める",
+        "operator_less_than_explanation": "象限などにそって，半時計回りに比較を行なう（ソートとかに使える）"
+    }
+}

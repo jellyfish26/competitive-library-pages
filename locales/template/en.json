@@ -7,6 +7,7 @@
         "function": "Function",
         "calc_amount": "Calculated Amount",
         "constant_multiple": "Constant Multiple",
-        "very_light": "Very Light"
+        "very_light": "Very Light",
+        "light": "Light"
     }
 }

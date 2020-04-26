@@ -31,15 +31,15 @@ export default {
           list: [
             {
               name: 'graph_template',
-              to: '/graph/template'
+              to: 'graph-template'
             },
             {
               name: 'dijkstra',
-              to: '/graph/Dijkstra'
+              to: 'graph-Dijkstra'
             },
             {
               name: 'euler_tour',
-              to: '/graph/EulerTour'
+              to: 'graph-EulerTour'
             }
           ]
         },
@@ -51,7 +51,7 @@ export default {
           list: [
             {
               name: 'mod_int',
-              to: '/mathematics/ModInt'
+              to: 'mathematics-ModInt'
             },
           ]
         },
@@ -63,7 +63,7 @@ export default {
           list: [
             {
               name: 'geometry_point',
-              to: '/geometry/Point'
+              to: 'geometry-Point'
             },
           ]
         },
@@ -75,7 +75,7 @@ export default {
           list: [
             {
               name: 'enumerative_euler_tour',
-              to: '/custom/EnumerativeEulerTour'
+              to: 'custom-CountUpEulerTour'
             },
           ]
         }

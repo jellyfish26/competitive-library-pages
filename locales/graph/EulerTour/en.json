@@ -1,0 +1,17 @@
+{
+    "en": {
+        "library_name": "EulerTour",
+        "overview": "A sequence of vertices to be traversed in DFS of a tree from its roots.",
+        "explanation_content": "A sequence of vertices to be traversed in DFS of a tree from its roots. We can handle queries that correspond mainly to partial trees by making the intervals on the tree correspond well to the intervals in the column (see CountUp EulerTour for counting up partial trees).",
+        "reference_about": "Please note that we don't accept them except for trees. The type T is the graph's T",
+        "2times": "Very Light(2 times)",
+        "graph_template": "Template",
+        "constructor_explanation": "Constructor, initialized with graphs and number of vertices",
+        "build_explanation": "Start the tour.",
+        "index_of_vertex_explanation": "Find the pre-order and post-order of vertices $v$ with half-open intervals",
+        "pre_order_explanation": "Find the pre-order of the vertex $v$.",
+        "post_order_explanation": "Find the post-order of vertex $v$.",
+        "operator_reference_explanation": "Returns the $i$th value in a sequence.",
+        "size_explanation": "Returns the size of a sequence."
+    }
+}

@@ -1,0 +1,16 @@
+{
+    "en": {
+        "library_name": "Points",
+        "overview": "Points to consider when dealing with geometric problems. That is, the library needed to work with geometry problems. I think most of the libraries on geometry depend on this library. (Geometry Problem Template, Just in case...?)",
+        "explanation_content": "That's a point. Vertex is OK...well, strictly speaking, a vector.",
+        "reference_about": "If it's not at the bottom, please look at the code. Each operator is just adding more and more.",
+        "dot_explanation": "Calculate the inner product of $p$.",
+        "cross_explanation": "Calculate the outer product of $p$.",
+        "before_norm_explanation": "Calculate the front of the norm calculation. I.e. $x^2 + y^2$.",
+        "norm_explanation": "Calculate norm. I.e. $x^2 + y^2$.",
+        "rotate_orthant_explanation": "Perform orthant rotation. I.e. the orthant move",
+        "rotate_theta_explanation": "Perform $\\theta$ rotation on a counterclockwise rotation (rotation along a orthant)",
+        "orthant_explanation": "Calculate orthant",
+        "operator_less_than_explanation": "Compare with Orthant and others. (can be used for sorting, etc.)"
+    }
+}

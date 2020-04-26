@@ -1,0 +1,7 @@
+{
+    "en": {
+        "library_name": "ModInt",
+        "overview": ":)",
+        "explanation_content": "Addition and subtraction and multiplication can be computed by $O(1)$, and division and power to be computed by $O(logN)$. I'm using int64_t for fear of overflow, but I don't need it. It might be already, but it might be constexpr."
+    }
+}

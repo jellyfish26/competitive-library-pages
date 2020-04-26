@@ -14,7 +14,7 @@
     <section class="mb-12" v-if="dependent_libraries">
       <h2> {{ $t('dependent_library') }} </h2>
       <ul v-for="depend in dependent_libraries">
-        <li><a :href="localePath(depend.link)"> {{ $t(depend.name) }} </a></li>
+        <li><nuxt-link :to="localePath(depend.link)"> {{ $t(depend.name) }} </nuxt-link></li>
       </ul>
     </section>
 
