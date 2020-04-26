@@ -1,7 +1,7 @@
 {
     "en": {
         "welcome": "Welcome!",
-        "first_description": "This site is a library for competitive programming by jellyfish26. If I'm not in the contest, feel free to use it. :)　See the license below to use it. (The English translation is likely to be incorrect)",
+        "first_description": "This site is a library for competitive programming by jellyfish26. If I'm not in the contest, feel free to use it. :)　See the license below to use it. (The English translation is likely to be incorrect. If you can read Japanese, you might want to read the Japanese page.)",
         "use_site": "How to use this site",
         "use_site_description": "This site is very simple. Select the data structure or algorithm you want to see from the navigation on the left and it will show up!!! Groundbreaking! The navigation on the right side is under construction. Please see the navigation on the right for the schedule.",
         "use_site_description_2": "The source code is straight from the master branch in my Library repository, but I may not have updated the description on this page. (I think the library page is slower to update, because I update it on a whim.)",

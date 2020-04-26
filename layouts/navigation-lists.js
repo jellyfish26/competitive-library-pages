@@ -75,7 +75,7 @@ export default {
           list: [
             {
               name: 'enumerative_euler_tour',
-              to: '/custom/EnumerativeEulerTour'
+              to: 'custom-CountUpEulerTour'
             },
           ]
         }
