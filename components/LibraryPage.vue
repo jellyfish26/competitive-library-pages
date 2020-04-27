@@ -1,14 +1,14 @@
 <template>
-  <v-responsive class="mx-auto" max-width=1024>
+  <v-responsive class="mx-auto" max-width="1024">
   　<section class="mb-12">
       <h1 class="display-1 font-weight-bold mb-2"> {{ $t('library_name') }} </h1>
       <p class="font-weight-right title"> 
-        <MathJax2 :formula="$t('overview')"/>
+        {{ $t('overview') }}
       </p>
     </section>
     <section class="mb-12">
       <h2> {{ $t('explanation') }} </h2>
-      <p> <MathJax2 :formula="$t('explanation_content')"/></p>
+      <p> {{ $t('explanation_content') }}</p>
     </section>
 
     <section class="mb-12" v-if="dependent_libraries">
@@ -20,7 +20,7 @@
 
     <section class="mb-12" v-if="func_reference">
       <h2> {{ $t('reference') }} </h2>
-      <p v-if="reference_about"> <MathJax2 :formula="$t(reference_about)"/> </p>
+      <p v-if="reference_about"> {{ $t('reference_about') }} </p>
       <v-simple-table>
         <template v-slot:default>
           <thead>
@@ -31,10 +31,10 @@
           </thead>
           <tbody>
             <tr v-for="now_func in func_reference" :key="now_func.function">
-              <td> <MathJax2 :formula="now_func.function"/> </td>
-              <td> <MathJax2 :formula="$t(now_func.explanation)"/> </td>
-              <td> <MathJax2 :formula="now_func.amount"/> </td>
-              <td> <MathJax2 :formula="$t(now_func.constant_times)"/> </td>
+              <td> {{ now_func.function }} </td>
+              <td> {{ $t(now_func.explanation) }} </td>
+              <td> {{ now_func.amount }} </td>
+              <td>  {{ $t(now_func.constant_times) }} </td>
             </tr>
           </tbody>
         </template>
@@ -56,13 +56,11 @@
 
 <script>
 import SourceView from '~/components/SourceView.vue'
-import MathJax2 from '~/components/MathJax2.vue'
 
 export default {
   props: ['sourceRaw', 'sourceGitHubLink', 'dependentList', 'japanese', 'english'],
   components: {
     SourceView: SourceView,
-    MathJax2: MathJax2,
   },
   data() {
     return {
@@ -77,6 +75,22 @@ export default {
       this.dependent_libraries = this.dependentList.dependent_libraries
       this.reference_about = this.dependentList.reference_about
       this.func_reference = this.dependentList.func_reference
+      if (window.MathJax) {
+        window.MathJax.Hub.Config({
+          tex2jax: {
+            inlineMath: [['$', '$']],
+            displayMath: [['$$', '$$']],
+            processEscapes: true,
+            processEnvironments: true
+          },
+          displayAlign: 'center',
+          "HTML-CSS": { fonts: ["TeX"] },
+        })
+        window.MathJax.Hub.Rerender([
+          'Typeset',
+          window.MathJax.Hub,
+        ])
+      }
   },
   head() {
     return {

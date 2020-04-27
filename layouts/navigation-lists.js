@@ -1,5 +1,5 @@
 export default {
-  data () {
+  data() {
     return {
       navigation_list: [
         {
@@ -44,6 +44,17 @@ export default {
           ]
         },
         {
+          icon: 'mdi-equalizer',
+          name: 'algorithm',
+          open: false,
+          list: [
+            {
+              name: 'cumulative_sum',
+              to: 'algorithm-CumulativeSum'
+            }
+          ]
+        },
+        {
           icon: 'mdi-math-integral-box',
           name: 'math',
           to: '/mathematics',
@@ -76,6 +87,10 @@ export default {
             {
               name: 'enumerative_euler_tour',
               to: 'custom-CountUpEulerTour'
+            },
+            {
+              name: 'counting_character_interval_mumeric_multiples',
+              to: 'custom-CountingCharacterIntervalNumericMultiples'
             },
           ]
         }

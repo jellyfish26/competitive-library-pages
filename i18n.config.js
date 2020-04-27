@@ -6,7 +6,7 @@ export default {
     ],
     defaultLocale: 'ja',
     vueI18n: {
-        fallbackLcale: 'en'
+        fallbackLcale: 'ja'
     },
     vueI18nLoader: true,
     rootRedirect: 'ja',
