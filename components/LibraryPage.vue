@@ -90,7 +90,6 @@ export default {
           'Typeset',
           window.MathJax.Hub,
         ])
-        console.log(window.MathJax.Hub.Rerender())
       }
   },
   head() {
