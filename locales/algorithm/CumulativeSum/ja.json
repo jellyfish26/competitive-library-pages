@@ -2,6 +2,13 @@
     "ja": {
         "library_name": "累積和(1次元)",
         "overview": "事前に数列の先頭からの累積の和を求めておくことで，区間の総和を$O(1)$で求めることができるアルゴリズムである．",
-        "explanation_content": "事前に累積和を求めておくことで，区間の総和を$O(1)$で求めることができる．（値を変更したい場合はセグメント木かBITを使おう）"
+        "explanation_content": "事前に累積和を求めておくことで，区間の総和を$O(1)$で求めることができる．（値を変更したい場合はセグメント木かBITを使おう）",
+        "reference_about": "基本的に型Tはintかlong long intかmodint",
+        "constructor_explanation": "数列のサイズを$size$で初期化",
+        "update_explanation": "$i$番目の要素に$v$を足す",
+        "build_explanation": "累積和を構築する",
+        "sum_explanation": "閉区間$[0, i]$の総和を求める",
+        "sum_all_explanation": "数列の総和を求める",
+        "query_section_explanation": "半開区間$[l, r)$の総和を求める"
     }
 }
