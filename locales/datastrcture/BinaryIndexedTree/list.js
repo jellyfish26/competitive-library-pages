@@ -12,25 +12,25 @@ export default {
           {
             "function": "update$(i, x)$",
             "explanation": "update_explanation",
-            "amount": "$O(logN)$",
+            "amount": "$O(\\log{N})$",
             "constant_times": "very_light"
           },
           {
             "function": "sum$(i)$",
             "explanation": "sum_explanation",
-            "amount": "$O(logN)$",
+            "amount": "$O(\\log{N})$",
             "constant_times": "very_light"
           },
           {
             "function": "sum_all$()$",
             "explanation": "sum_all_explanation",
-            "amount": "$O(logN)$",
+            "amount": "$O(\\log{N})$",
             "constant_times": "very_light"
           },
           {
             "function": "query$(l, r)$",
             "explanation": "query_explanation",
-            "amount": "$O(logN)$",
+            "amount": "$O(\\log{N})$",
             "constant_times": "2times"
           },
         ]

@@ -26,25 +26,25 @@ export default {
           {
             "function": "init_pre_order_count$(i)$",
             "explanation": "init_pre_order_count_explanation",
-            "amount": "$O(VlogV)$",
+            "amount": "$O(V\\log{V})$",
             "constant_times": "very_light"
           },
           {
             "function": "init_post_order_count$(i)$",
             "explanation": "init_post_order_count_explanation",
-            "amount": "$O(VlogV)$",
+            "amount": "$O(V\\log{V})$",
             "constant_times": "very_light"
           },
           {
             "function": "reset_pre_order_count$(i)$",
             "explanation": "reset_pre_order_count_explanation",
-            "amount": "$O(VlogV)$",
+            "amount": "$O(V\\log{V})$",
             "constant_times": "same_times"
           },
           {
             "function": "reset_post_order_count$(i)$",
             "explanation": "reset_post_order_count_explanation",
-            "amount": "$O(VlogV)$",
+            "amount": "$O(V\\log{V})$",
             "constant_times": "same_times"
           },
           {
@@ -56,19 +56,19 @@ export default {
           {
             "function": "update$(r, i)$",
             "explanation": "updatet_explanation",
-            "amount": "$O(logV)$",
+            "amount": "$O(\\log{V})$",
             "constant_times": "very_light"
           },
           {
             "function": "query$(\{l, r\})$",
             "explanation": "query_pair_explanation",
-            "amount": "$O(logV)$",
+            "amount": "$O(\\log{V})$",
             "constant_times": "very_light"
           },
           {
             "function": "query$(r)$",
             "explanation": "query_explanation",
-            "amount": "$O(logV)$",
+            "amount": "$O(\\log{V})$",
             "constant_times": "very_light"
           },
         ]
