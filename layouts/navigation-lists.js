@@ -1,5 +1,5 @@
 export default {
-  data () {
+  data() {
     return {
       navigation_list: [
         {
@@ -40,6 +40,17 @@ export default {
             {
               name: 'euler_tour',
               to: 'graph-EulerTour'
+            }
+          ]
+        },
+        {
+          icon: 'mdi-equalizer',
+          name: 'algorithm',
+          open: false,
+          list: [
+            {
+              name: 'cumulative_sum',
+              to: 'algorithm-CumulativeSum'
             }
           ]
         },
