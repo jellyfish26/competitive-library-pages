@@ -17,6 +17,7 @@
         "geometry_point": "Point(template)",
         "enumerative_euler_tour": "CountUp EulerTour",
         "algorithm": "Algorithm",
-        "cumulative_sum": "Cumulative Sum"
+        "cumulative_sum": "Cumulative Sum",
+        "counting_character_interval_mumeric_multiples": "Counting Character Interval Numeric Multiples"
     }
 }
