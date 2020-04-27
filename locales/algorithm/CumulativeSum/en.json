@@ -1,0 +1,14 @@
+{
+    "en": {
+        "library_name": "Cumulative Sum (1D)",
+        "overview": "This is an algorithm that can find the total sum of intervals by $O(1)$ by finding the cumulative sum from the beginning of the sequence beforehand.",
+        "explanation_content": "By calculating the cumulative sum in advance, we can obtain the sum of the intervals by $O(1)$. (Use a segment tree or BIT if you want to change the value)",
+        "reference_about": "Basically, the type T is either int, long long int or modint.",
+        "constructor_explanation": "Initialize the size of a sequence with $size$.",
+        "update_explanation": "Add $v$ to the $i$th element.",
+        "build_explanation": "Constructing a cumulative sum",
+        "sum_explanation": "Find the sum of the closed interval $[0, i]$",
+        "sum_all_explanation": "Find the sum of a sequence of numbers",
+        "query_section_explanation": "Find the sum of the semi-open intervals $[l, r)$"
+    }
+}

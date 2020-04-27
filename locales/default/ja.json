@@ -15,6 +15,9 @@
         "euler_tour": "オイラーツアー",
         "mod_int": "ModInt",
         "geometry_point": "点(テンプレート)",
-        "enumerative_euler_tour": "数え上げオイラーツアー"
+        "enumerative_euler_tour": "数え上げオイラーツアー",
+        "algorithm": "アルゴリズム",
+        "cumulative_sum": "累積和",
+        "counting_character_interval_mumeric_multiples": "文字区間の数値倍数"
     }
 }
