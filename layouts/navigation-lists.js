@@ -79,6 +79,18 @@ export default {
           ]
         },
         {
+          icon: 'mdi-graphql',
+          name: 'extension_graph',
+          to: '/custom',
+          open: false,
+          list: [
+            {
+              name: 'vertex_replenishment_limit_dijkstra',
+              to: 'extensionGraph-VertexReplenishmentLimitDijkstra'
+            },
+          ]
+        },
+        {
           icon: 'mdi-flask-empty-plus',
           name: 'custom',
           to: '/custom',

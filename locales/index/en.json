@@ -25,12 +25,20 @@
                 "description" : "It categorizes those that deal with graph problems. In the future, we may categorize the problems with trees separately."
             },
             {
+                "classification_name" : "Algorithm",
+                "description" : "It classifies cumulative sums and so on."
+            },
+            {
                 "classification_name" : "Mathematics",
                 "description" : "Er, mathematics."
             },
             {
                 "classification_name" : "Geometry",
                 "description" : "Yes, it's geometry. Algebra might be in there too (I don't know any algebra problems)"
+            },
+            {
+                "classification_name" : "Extended Graph",
+                "description" : "It is the same as Custom, but it categorizes graph problems that are rarely used."
             },
             {
                 "classification_name" : "Custom",

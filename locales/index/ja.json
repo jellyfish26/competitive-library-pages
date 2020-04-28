@@ -25,12 +25,20 @@
                 "description" : "グラフ問題を扱うものを分類しています．将来的には木に対する問題は別で分類するかもしれません．"
             },
             {
+                "classification_name" : "アルゴリズム",
+                "description" : "累積和とかそこら辺を分類してる．アルゴリズム．"
+            },
+            {
                 "classification_name" : "数学",
                 "description" : "えー，数学です．"
             },
             {
                 "classification_name" : "幾何",
                 "description" : "うん，幾何ですね．代数も入るかも(代数問題知らない)"
+            },
+            {
+                "classification_name" : "拡張グラフ",
+                "description" : "カスタムと同じで余り使わないグラフ問題を扱うものを分類してる．"
             },
             {
                 "classification_name" : "カスタム",

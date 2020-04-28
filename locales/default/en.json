@@ -18,6 +18,8 @@
         "enumerative_euler_tour": "CountUp EulerTour",
         "algorithm": "Algorithm",
         "cumulative_sum": "Cumulative Sum",
-        "counting_character_interval_mumeric_multiples": "Counting Character Interval Numeric Multiples"
+        "counting_character_interval_mumeric_multiples": "Counting Character Interval Numeric Multiples",
+        "extension_graph": "Extension Graph",
+        "vertex_replenishment_limit_dijkstra": "Vertex Replenishment Limit Dijkstra"
     }
 }

@@ -24,7 +24,7 @@
       <v-simple-table>
         <template v-slot:default>
           <thead>
-            <th width="250sp"> {{ $t('function')}} </th>
+            <th width="150sp"> {{ $t('function')}} </th>
             <th width="300sp"> {{ $t('explanation') }} </th>
             <th> {{ $t('calc_amount') }} </th>
             <th> {{ $t('constant_multiple') }} </th>
