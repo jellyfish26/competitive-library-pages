@@ -1,7 +1,7 @@
 <template>
   <LibraryPage
-    sourceRaw="https://raw.githubusercontent.com/jellyfish26/competitive-library/master/custom/CountingCharacterIntervalNumericMultiples.cpp"
-    sourceGitHubLink="https://github.com/jellyfish26/competitive-library/blob/master/custom/CountingCharacterIntervalNumericMultiples.cpp"
+    sourceRaw="https://raw.githubusercontent.com/jellyfish26/competitive-library/master/custom/others/CountingCharacterIntervalNumericMultiples.cpp"
+    sourceGitHubLink="https://github.com/jellyfish26/competitive-library/blob/master/custom/others/CountingCharacterIntervalNumericMultiples.cpp"
     :dependentList="dependent_list"
     :japanese="Japanese.ja"
     :english="English.en"

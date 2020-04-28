@@ -1,7 +1,7 @@
 <template>
   <LibraryPage
-    sourceRaw="https://raw.githubusercontent.com/jellyfish26/competitive-library/master/custom/CountUpEulerTour.cpp"
-    sourceGitHubLink="https://github.com/jellyfish26/competitive-library/blob/master/custom/CountUpEulerTour.cpp"
+    sourceRaw="https://raw.githubusercontent.com/jellyfish26/competitive-library/master/custom/others/CountUpEulerTour.cpp"
+    sourceGitHubLink="https://github.com/jellyfish26/competitive-library/blob/master/custom/others/CountUpEulerTour.cpp"
     :dependentList="dependent_list"
     :japanese="Japanese.ja"
     :english="English.en"

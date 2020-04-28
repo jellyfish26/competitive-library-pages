@@ -1,7 +1,7 @@
 <template>
   <LibraryPage
-    sourceRaw="https://raw.githubusercontent.com/jellyfish26/competitive-library/master/extension_graph/VertexReplenishmentLimitDijkstra.cpp"
-    sourceGitHubLink="https://github.com/jellyfish26/competitive-library/blob/master/extension_graph/VertexReplenishmentLimitDijkstra.cpp"
+    sourceRaw="https://raw.githubusercontent.com/jellyfish26/competitive-library/master/custom/extension_graph/VertexReplenishmentLimitDijkstra.cpp"
+    sourceGitHubLink="https://github.com/jellyfish26/competitive-library/blob/master/custom/extension_graph/VertexReplenishmentLimitDijkstra.cpp"
     :dependentList="dependent_list"
     :japanese="Japanese.ja"
     :english="English.en"
