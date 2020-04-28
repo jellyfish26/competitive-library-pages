@@ -20,6 +20,8 @@
         "cumulative_sum": "累積和",
         "counting_character_interval_mumeric_multiples": "文字区間の数値倍数",
         "extension_graph": "拡張グラフ",
-        "vertex_replenishment_limit_dijkstra": "頂点で補充可能な移動制限グラフ"
+        "vertex_replenishment_limit_dijkstra": "頂点で補充可能な移動制限グラフ",
+        "garbage": "ゴミ",
+        "specified_square_filled_count": "指定範囲塗りつぶしカウント"
     }
 }

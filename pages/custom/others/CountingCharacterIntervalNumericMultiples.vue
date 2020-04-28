@@ -10,9 +10,9 @@
 
 <script>
 import LibraryPage from '~/components/LibraryPage.vue'
-import DependentList from '~/locales/custom/CountingCharacterIntervalNumericMultiples/list.js'
-import Japanese from '~/locales/custom/CountingCharacterIntervalNumericMultiples/ja.json'
-import English from '~/locales/custom/CountingCharacterIntervalNumericMultiples/en.json'
+import DependentList from '~/locales/custom/others/CountingCharacterIntervalNumericMultiples/list.js'
+import Japanese from '~/locales/custom/others/CountingCharacterIntervalNumericMultiples/ja.json'
+import English from '~/locales/custom/others/CountingCharacterIntervalNumericMultiples/en.json'
 
 export default {
   components: {

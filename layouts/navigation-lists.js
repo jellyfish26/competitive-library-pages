@@ -86,7 +86,7 @@ export default {
           list: [
             {
               name: 'vertex_replenishment_limit_dijkstra',
-              to: 'extensionGraph-VertexReplenishmentLimitDijkstra'
+              to: 'custom-extensionGraph-VertexReplenishmentLimitDijkstra'
             },
           ]
         },
@@ -98,11 +98,23 @@ export default {
           list: [
             {
               name: 'enumerative_euler_tour',
-              to: 'custom-CountUpEulerTour'
+              to: 'custom-others-CountUpEulerTour'
             },
             {
               name: 'counting_character_interval_mumeric_multiples',
-              to: 'custom-CountingCharacterIntervalNumericMultiples'
+              to: 'custom-others-CountingCharacterIntervalNumericMultiples'
+            },
+          ]
+        },
+        {
+          icon: 'mdi-delete',
+          name: 'garbage',
+          to: '/garbage',
+          open: false,
+          list: [
+            {
+              name: 'specified_square_filled_count',
+              to: 'custom-garbage-SpecifiedSquareFilledCount'
             },
           ]
         }

@@ -10,9 +10,9 @@
 
 <script>
 import LibraryPage from '~/components/LibraryPage.vue'
-import DependentList from '~/locales/custom/CountUpEulerTour/list.js'
-import Japanese from '~/locales/custom/CountUpEulerTour/ja.json'
-import English from '~/locales/custom/CountUpEulerTour/en.json'
+import DependentList from '~/locales/custom/others/CountUpEulerTour/list.js'
+import Japanese from '~/locales/custom/others/CountUpEulerTour/ja.json'
+import English from '~/locales/custom/others/CountUpEulerTour/en.json'
 
 export default {
   components: {

@@ -10,9 +10,9 @@
 
 <script>
 import LibraryPage from '~/components/LibraryPage.vue'
-import DependentList from '~/locales/extensionGraph/VertexReplenishmentLimitDijkstra/list.js'
-import Japanese from '~/locales/extensionGraph/VertexReplenishmentLimitDijkstra/ja.json'
-import English from '~/locales/extensionGraph/VertexReplenishmentLimitDijkstra/en.json'
+import DependentList from '~/locales/custom/extensionGraph/VertexReplenishmentLimitDijkstra/list.js'
+import Japanese from '~/locales/custom/extensionGraph/VertexReplenishmentLimitDijkstra/ja.json'
+import English from '~/locales/custom/extensionGraph/VertexReplenishmentLimitDijkstra/en.json'
 
 export default {
   components: {
