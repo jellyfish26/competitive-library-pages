@@ -40,6 +40,10 @@ export default {
             {
               name: 'euler_tour',
               to: 'graph-EulerTour'
+            },
+            {
+              name: 'rerooting',
+              to: 'graph-ReRooting'
             }
           ]
         },

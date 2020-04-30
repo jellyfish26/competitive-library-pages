@@ -10,6 +10,7 @@
         "very_light": "Very Light",
         "light": "Light",
         "very_heavy": "Very Heavy",
-        "normal": "Normal"
+        "normal": "Normal",
+        "little_heavy": "Little Heavy"
     }
 }

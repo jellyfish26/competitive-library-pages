@@ -10,6 +10,7 @@
         "very_light": "とても軽い",
         "light": "軽い",
         "very_heavy": "とても重い",
-        "normal": "普通"
+        "normal": "普通",
+        "little_heavy": "少し重い"
     }
 }

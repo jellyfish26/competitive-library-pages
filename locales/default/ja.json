@@ -23,6 +23,7 @@
         "vertex_replenishment_limit_dijkstra": "頂点で補充可能な移動制限グラフ",
         "garbage": "ゴミ",
         "specified_square_filled_count": "指定範囲塗りつぶしカウント",
-        "combination": "組み合わせ"
+        "combination": "組み合わせ",
+        "rerooting": "全方位木DP"
     }
 }

@@ -23,6 +23,7 @@
         "vertex_replenishment_limit_dijkstra": "Vertex Replenishment Limit Dijkstra",
         "garbage": "Garbage",
         "specified_square_filled_count": "Specified Square Filled Count",
-        "combination": "Combination"
+        "combination": "Combination",
+        "rerooting": "ReRooting"
     }
 }
