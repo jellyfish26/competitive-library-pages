@@ -9,6 +9,7 @@
         "constant_multiple": "定数倍",
         "very_light": "とても軽い",
         "light": "軽い",
-        "very_heavy": "とても重い"
+        "very_heavy": "とても重い",
+        "normal": "普通"
     }
 }

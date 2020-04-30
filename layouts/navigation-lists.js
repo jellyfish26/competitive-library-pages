@@ -64,6 +64,10 @@ export default {
               name: 'mod_int',
               to: 'mathematics-ModInt'
             },
+            {
+              name: 'combination',
+              to: 'mathematics-Combination'
+            },
           ]
         },
         {

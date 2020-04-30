@@ -9,6 +9,7 @@
         "constant_multiple": "Constant Multiple",
         "very_light": "Very Light",
         "light": "Light",
-        "very_heavy": "Very Heavy"
+        "very_heavy": "Very Heavy",
+        "normal": "Normal"
     }
 }

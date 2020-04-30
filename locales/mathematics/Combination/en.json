@@ -1,0 +1,12 @@
+{
+    "en": {
+        "library_name": "Combination",
+        "overview": "By calculating in advance, the combination can be calculated quickly.",
+        "explanation_content": "We can find the factorial and its inverse in $O(N)$ in advance and find ${}_nC_k$, ${}_nP_k$, and ${}_nH_k$ in $O(1)$",
+        "constructor_explanation": "Constructors, combinations up to $N$, etc. can be computed.",
+        "P_explanation": "Compute ${}_nP_k$, i.e., the permutation",
+        "C_explanation": "Compute ${}_nC_k$, i.e., the combination",
+        "H_explanation": "Compute ${}_nH_k$, i.e., the combination with repetition",
+        "modint": "ModInt"
+    }
+}

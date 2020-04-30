@@ -1,0 +1,12 @@
+{
+    "ja": {
+        "library_name": "組み合わせ",
+        "overview": "組み合わせを前計算で高速に求めるやつ，主に${}_nC_k$",
+        "explanation_content": "事前に階乗とその逆元を$O(N)$で求めて，${}_nC_k$, ${}_nP_k$, ${}_nH_k$を$O(1)$で求めることが出来る",
+        "constructor_explanation": "コンストラクタ，$N$までの組み合わせ等を求めることが出来るようにする",
+        "P_explanation": " ${}_nP_k$を求める，すなわち順列",
+        "C_explanation": " ${}_nC_k$を求める，すなわち組み合わせ",
+        "H_explanation": " ${}_nH_k$を求める，すなわち重複組み合わせ",
+        "modint": "ModInt"
+    }
+}
