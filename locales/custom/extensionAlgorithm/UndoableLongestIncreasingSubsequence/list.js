@@ -4,7 +4,7 @@ export default {
         reference_about: "reference_about",
         func_reference: [
           {
-            "function": "UndoableLongestIncreaseingSubsequence$(i)$",
+            "function": "UndoableLongestIncreasingSubsequence$(i)$",
             "explanation": "constructor_explanation",
             "amount": "$O(1)$",
             "constant_times": "very_light"

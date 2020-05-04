@@ -12,13 +12,13 @@ export default {
             "link": "graph-EulerTour"
           },
           {
-            "name": "undoable_longest_increaseing_subsequence",
-            "link": "custom-extensionAlgorithm-UndoableLongestIncreaseingSubsequence"
+            "name": "undoable_longest_increasing_subsequence",
+            "link": "custom-extensionAlgorithm-UndoableLongestIncreasingSubsequence"
           },
         ],
         func_reference: [
           {
-            "function": "LongestIncreaseingSubsequenceTree$(s, i)$",
+            "function": "LongestIncreasingSubsequenceTree$(s, i)$",
             "explanation": "constructor_explanation",
             "amount": "$O(V)$",
             "constant_times": "very_light"
@@ -39,7 +39,7 @@ export default {
             "function": "build$(v)$",
             "explanation": "build_explanation",
             "amount": "$O(V\\log V)$",
-            "constant_times": "very_light"
+            "constant_times": "light"
           },
           {
             "function": "operator$[v]$",

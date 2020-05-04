@@ -97,8 +97,8 @@ export default {
               to: 'custom-extensionGraph-VertexReplenishmentLimitDijkstra'
             },
             {
-              name: 'longest_increaseing_subsequence_tree',
-              to: 'custom-extensionGraph-LongestIncreaseingSubsequenceTree'
+              name: 'longest_increasing_subsequence_tree',
+              to: 'custom-extensionGraph-LongestIncreasingSubsequenceTree'
             },
           ]
         },
@@ -109,8 +109,8 @@ export default {
           open: false,
           list: [
             {
-              name: 'undoable_longest_increaseing_subsequence',
-              to: 'custom-extensionAlgorithm-UndoableLongestIncreaseingSubsequence'
+              name: 'undoable_longest_increasing_subsequence',
+              to: 'custom-extensionAlgorithm-UndoableLongestIncreasingSubsequence'
             },
           ]
         },

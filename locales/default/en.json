@@ -26,7 +26,7 @@
         "specified_square_filled_count": "Specified Square Filled Count",
         "combination": "Combination",
         "rerooting": "ReRooting",
-        "undoable_longest_increaseing_subsequence": "Undoable Longest Increaseing Subsequence",
-        "longest_increaseing_subsequence_tree": "Longest Increaseing Subsequence on Tree"
+        "undoable_longest_increasing_subsequence": "Undoable Longest Increasing Subsequence",
+        "longest_increasing_subsequence_tree": "Longest Increasing Subsequence on Tree"
     }
 }

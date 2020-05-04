@@ -11,6 +11,6 @@
         "operator_reference_explanation": "根から$v$までの最長増加部分列を求める",
         "graph_template": "テンプレート",
         "euler_tour": "オイラーツアー",
-        "undoable_longest_increaseing_subsequence": "Undo可能な最長増加部分列"
+        "undoable_longest_increasing_subsequence": "Undo可能な最長増加部分列"
     }
 }
