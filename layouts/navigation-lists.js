@@ -99,6 +99,18 @@ export default {
           ]
         },
         {
+          icon: 'mdi-cube-unfolded',
+          name: 'extension_algorithm',
+          to: '/custom',
+          open: false,
+          list: [
+            {
+              name: 'undoable_longest_increaseing_subsequence',
+              to: 'custom-extensionAlgorithm-UndoableLongestIncreaseingSubsequence'
+            },
+          ]
+        },
+        {
           icon: 'mdi-flask-empty-plus',
           name: 'custom',
           to: '/custom',

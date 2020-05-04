@@ -37,8 +37,12 @@
                 "description" : "Yes, it's geometry. Algebra might be in there too (I don't know any algebra problems)"
             },
             {
-                "classification_name" : "Extended Graph",
+                "classification_name" : "Extension Graph",
                 "description" : "It is the same as Custom, but it categorizes graph problems that are rarely used."
+            },
+            {
+                "classification_name" : "Extension Algorithm",
+                "description" : "It is the same as Custom, but it categorizes algorithm that are rarely used. It also includes algorithms that can do persistent operations (such as undo)."
             },
             {
                 "classification_name" : "Custom",
