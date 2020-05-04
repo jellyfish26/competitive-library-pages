@@ -25,6 +25,8 @@
         "garbage": "Garbage",
         "specified_square_filled_count": "Specified Square Filled Count",
         "combination": "Combination",
-        "rerooting": "ReRooting"
+        "rerooting": "ReRooting",
+        "undoable_longest_increaseing_subsequence": "Undoable Longest Increaseing Subsequence",
+        "longest_increaseing_subsequence_tree": "Longest Increaseing Subsequence on Tree"
     }
 }

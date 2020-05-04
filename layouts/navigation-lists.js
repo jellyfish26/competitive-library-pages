@@ -96,6 +96,10 @@ export default {
               name: 'vertex_replenishment_limit_dijkstra',
               to: 'custom-extensionGraph-VertexReplenishmentLimitDijkstra'
             },
+            {
+              name: 'longest_increaseing_subsequence_tree',
+              to: 'custom-extensionGraph-LongestIncreaseingSubsequenceTree'
+            },
           ]
         },
         {

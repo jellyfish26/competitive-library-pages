@@ -10,9 +10,9 @@
 
 <script>
 import LibraryPage from '~/components/LibraryPage.vue'
-import DependentList from '~/locales/custom/extensionAlgorithm/list.js'
-import Japanese from '~/locales/custom/extensionAlgorithm/ja.json'
-import English from '~/locales/custom/extensionAlgorithm/en.json'
+import DependentList from '~/locales/custom/extensionAlgorithm/UndoableLongestIncreaseingSubsequence/list.js'
+import Japanese from '~/locales/custom/extensionAlgorithm/UndoableLongestIncreaseingSubsequence/ja.json'
+import English from '~/locales/custom/extensionAlgorithm/UndoableLongestIncreaseingSubsequence/en.json'
 
 export default {
   components: {

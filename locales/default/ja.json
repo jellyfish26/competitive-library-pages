@@ -26,6 +26,7 @@
         "specified_square_filled_count": "指定範囲塗りつぶしカウント",
         "combination": "組み合わせ",
         "rerooting": "全方位木DP",
-        "undoable_longest_increaseing_subsequence": "Undo可能な最長増加部分列"
+        "undoable_longest_increaseing_subsequence": "Undo可能な最長増加部分列",
+        "longest_increaseing_subsequence_tree": "木上の最長増加部分列"
     }
 }
