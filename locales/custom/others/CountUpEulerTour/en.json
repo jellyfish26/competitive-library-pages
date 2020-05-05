@@ -13,9 +13,6 @@
         "reset_count_explanation": "Reset 0",
         "updatet_explanation": "Add $i$ to a sub-tree whose roots are the vertices $r$.",
         "query_pair_explanation": "Compute the counting of the half-open interval $[l, r)$ in the EulerTour",
-        "query_explanation": "Compute the counting for a partial tree with roots at vertex $r$.",
-        "graph_template": "Graph Templates",
-        "euler_tour": "EulerTour",
-        "binary_indexed_tree": "Binary-Indexed-Tree"
+        "query_explanation": "Compute the counting for a partial tree with roots at vertex $r$."
     }
 }

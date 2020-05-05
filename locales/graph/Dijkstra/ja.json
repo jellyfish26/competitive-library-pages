@@ -8,7 +8,6 @@
         "query_overwrite_explanation": "最短距離がすでに求まっているかどうかにかかわらず，強制的に新たに$s$から$e$への最短距離を求める．到達出来ない場合はINFが返る．",
         "query_explanation": "$s$から$e$への最短距離を求める．到達出来ない場合はINFが返る．始点からの最短距離がすでに求まっている場合は$O(1)$で求めることが可能．",
         "query_noreturn_explanation": "$s$から全点の最短経路を求めて，データを保存する．別のquery関数かoperator[ ]で参照してください．",
-        "operator_reference_explanation": "$s$から全点の最短経路が保存されているvectorを参照",
-        "graph_template": "テンプレート"
+        "operator_reference_explanation": "$s$から全点の最短経路が保存されているvectorを参照"
     }
 }

@@ -13,9 +13,6 @@
         "reset_count_explanation": "数え上げをすべて0にする",
         "updatet_explanation": "頂点$r$を根とする部分木に対して，$i$を加算する",
         "query_pair_explanation": "オイラーツアーにおいて，半開区間$[l, r)$の数え上げを計算する",
-        "query_explanation": "頂点$r$を根とする部分木に対しての数え上げを計算する",
-        "graph_template": "グラフのテンプレート",
-        "euler_tour": "オイラーツアー",
-        "binary_indexed_tree": "Binary-Indexed-Tree"
+        "query_explanation": "頂点$r$を根とする部分木に対しての数え上げを計算する"
     }
 }

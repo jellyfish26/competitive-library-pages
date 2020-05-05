@@ -95,6 +95,8 @@
 
 <i18n src="~/locales/default/ja.json"></i18n>
 <i18n src="~/locales/default/en.json"></i18n>
+<i18n src="~/locales/names/ja.json"></i18n>
+<i18n src="~/locales/names/en.json"></i18n>
 
 <script>
 import navigation from './navigation-lists.js'

@@ -8,7 +8,6 @@
         "query_overwrite_explanation": "Forcibly find a new shortest distance from $s$ to $e$, regardless of whether the shortest distance has already been obtained. The INF is returned if it cannot be reached.",
         "query_explanation": "Find the shortest distance from $s$ to $e$. The INF is returned if it cannot be reached. If the shortest distance from the starting point is already known, it can be calculated by $O(1)$.",
         "query_noreturn_explanation": "Find the shortest path of all points from $s$ and save the data. Refer to another query function or to the operator[ ].",
-        "operator_reference_explanation": "Refer to the vector where the shortest path of all points from $s$ is stored",
-        "graph_template": "Template"
+        "operator_reference_explanation": "Refer to the vector where the shortest path of all points from $s$ is stored"
     }
 }

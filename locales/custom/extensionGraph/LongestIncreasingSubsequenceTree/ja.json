@@ -9,8 +9,6 @@
         "init_vertex_explanation": "頂点$v$に数値$n$を置く",
         "build_explanation": "頂点$s$から各頂点までの最長増加部分列の長さを求める",
         "operator_reference_explanation": "根から$v$までの最長増加部分列を求める",
-        "graph_template": "テンプレート",
-        "euler_tour": "オイラーツアー",
         "undoable_longest_increasing_subsequence": "Undo可能な最長増加部分列"
     }
 }

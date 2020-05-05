@@ -6,7 +6,6 @@
         "constructor_explanation": "Constructors, combinations up to $N$, etc. can be computed.",
         "P_explanation": "Compute ${}_nP_k$, i.e., the permutation",
         "C_explanation": "Compute ${}_nC_k$, i.e., the combination",
-        "H_explanation": "Compute ${}_nH_k$, i.e., the combination with repetition",
-        "modint": "ModInt"
+        "H_explanation": "Compute ${}_nH_k$, i.e., the combination with repetition"
     }
 }

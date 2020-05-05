@@ -53,6 +53,8 @@
 
 <i18n src="~/locales/template/ja.json"></i18n>
 <i18n src="~/locales/template/en.json"></i18n>
+<i18n src="~/locales/names/ja.json"></i18n>
+<i18n src="~/locales/names/en.json"></i18n>
 
 <script>
 import SourceView from '~/components/SourceView.vue'
