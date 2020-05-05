@@ -1,3 +1,13 @@
+import datastrcture from './classification_list/datastrcture.js'
+import graph from './classification_list/graph.js'
+import algorithm from './classification_list/algorithm.js'
+import mathematics from './classification_list/mathematics.js'
+import geometry from './classification_list/geometry.js'
+import extension_graph from './classification_list/custom/extension_graph.js'
+import extension_algorithm from './classification_list/custom/extension_algorithm.js'
+import custom_others from './classification_list/custom/others.js'
+import custom_garbage from './classification_list/custom/garbage.js'
+
 export default {
   data() {
     return {
@@ -12,135 +22,62 @@ export default {
           name: 'data_strcture',
           to: '/datastrcture',
           open: false,
-          list: [
-            {
-              name: 'binary_indexed_tree',
-              to: 'datastrcture-BinaryIndexedTree'
-            },
-            {
-              name: 'union_find',
-              to: 'datastrcture-UnionFind'
-            }
-          ]
+          list: datastrcture.data().list
         },
         {
           icon: 'mdi-graph',
           name: 'graph',
           to: '/graph',
           open: false,
-          list: [
-            {
-              name: 'graph_template',
-              to: 'graph-template'
-            },
-            {
-              name: 'dijkstra',
-              to: 'graph-Dijkstra'
-            },
-            {
-              name: 'euler_tour',
-              to: 'graph-EulerTour'
-            },
-            {
-              name: 'rerooting',
-              to: 'graph-ReRooting'
-            }
-          ]
+          list: graph.data().list
         },
         {
           icon: 'mdi-equalizer',
           name: 'algorithm',
           open: false,
-          list: [
-            {
-              name: 'cumulative_sum',
-              to: 'algorithm-CumulativeSum'
-            }
-          ]
+          list: algorithm.data().list
         },
         {
           icon: 'mdi-math-integral-box',
           name: 'math',
           to: '/mathematics',
           open: false,
-          list: [
-            {
-              name: 'mod_int',
-              to: 'mathematics-ModInt'
-            },
-            {
-              name: 'combination',
-              to: 'mathematics-Combination'
-            },
-          ]
+          list: mathematics.data().list
         },
         {
           icon: 'mdi-matrix',
           name: 'geometry',
           to: '/geometry',
           open: false,
-          list: [
-            {
-              name: 'geometry_point',
-              to: 'geometry-Point'
-            },
-          ]
+          list: geometry.data().list
         },
         {
           icon: 'mdi-graphql',
           name: 'extension_graph',
           to: '/custom',
           open: false,
-          list: [
-            {
-              name: 'vertex_replenishment_limit_dijkstra',
-              to: 'custom-extensionGraph-VertexReplenishmentLimitDijkstra'
-            },
-            {
-              name: 'longest_increasing_subsequence_tree',
-              to: 'custom-extensionGraph-LongestIncreasingSubsequenceTree'
-            },
-          ]
+          list: extension_graph.data().list
         },
         {
           icon: 'mdi-cube-unfolded',
           name: 'extension_algorithm',
           to: '/custom',
           open: false,
-          list: [
-            {
-              name: 'undoable_longest_increasing_subsequence',
-              to: 'custom-extensionAlgorithm-UndoableLongestIncreasingSubsequence'
-            },
-          ]
+          list: extension_algorithm.data().list
         },
         {
           icon: 'mdi-flask-empty-plus',
           name: 'custom',
           to: '/custom',
           open: false,
-          list: [
-            {
-              name: 'enumerative_euler_tour',
-              to: 'custom-others-CountUpEulerTour'
-            },
-            {
-              name: 'counting_character_interval_mumeric_multiples',
-              to: 'custom-others-CountingCharacterIntervalNumericMultiples'
-            },
-          ]
+          list: custom_others.data().list
         },
         {
           icon: 'mdi-delete',
           name: 'garbage',
           to: '/garbage',
           open: false,
-          list: [
-            {
-              name: 'specified_square_filled_count',
-              to: 'custom-garbage-SpecifiedSquareFilledCount'
-            },
-          ]
+          list: custom_garbage.data().list
         }
       ]
     }
