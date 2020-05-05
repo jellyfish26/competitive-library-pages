@@ -1,0 +1,13 @@
+{
+    "ja": {
+        "library_name": "セグメント木(Segment Tree)",
+        "overview": "セグメント木は任意の区間に対してのクエリと，任意のインデックスに対して$O(\\log N)$で処理出来るデータ構造である．",
+        "explanation_content": "セグメント木は，あるmerge関数を元に任意の区間に対してのクエリ，任意のインデックスの更新を$O(\\log N)$で行なうことが出来る．merge関数はモノイドを満たす必要がある．",
+        "reference_about": "型Mはモノイドである．merge関数の返り値と引数の型",
+        "constructor_normal_explanation": "コンストラクタ，データ保持数$s$と，merge関数$f$と，単位元$m$で初期化．配列の初期状態はすべて単位元．",
+        "constructor_vector_explanation": "コンストラクタ，merge関数$f$と，単位元$m$で初期化．配列の初期状態を$v$にする．",
+        "update_explanation": "$i$番目の値を$v$に変更する",
+        "query_explanation": "半開区間$[l, r)$のクエリを求める",
+        "operator_reference_explanation": "$i$番目の要素を返す"
+    }
+}

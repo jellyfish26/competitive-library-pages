@@ -9,6 +9,10 @@ export default {
         {
           name: 'union_find',
           to: 'datastrcture-UnionFind'
+        },
+        {
+          name: 'segment_tree',
+          to: 'datastrcture-SegmentTree'
         }
       ]
     }

@@ -24,6 +24,7 @@
         "combination": "組み合わせ",
         "rerooting": "全方位木DP",
         "undoable_longest_increasing_subsequence": "Undo可能な最長増加部分列",
-        "longest_increasing_subsequence_tree": "木上の最長増加部分列"
+        "longest_increasing_subsequence_tree": "木上の最長増加部分列",
+        "segment_tree": "セグメント木"
     }
 }

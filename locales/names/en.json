@@ -24,6 +24,7 @@
         "combination": "Combination",
         "rerooting": "ReRooting",
         "undoable_longest_increasing_subsequence": "Undoable Longest Increasing Subsequence",
-        "longest_increasing_subsequence_tree": "Longest Increasing Subsequence on Tree"
+        "longest_increasing_subsequence_tree": "Longest Increasing Subsequence on Tree",
+        "segment_tree": "Segment Tree"
     }
 }
