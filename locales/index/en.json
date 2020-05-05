@@ -25,6 +25,10 @@
                 "description" : "It categorizes those that deal with graph problems. In the future, we may categorize the problems with trees separately."
             },
             {
+                "classification_name" : "Algorithm",
+                "description" : "It classifies cumulative sums and so on."
+            },
+            {
                 "classification_name" : "Mathematics",
                 "description" : "Er, mathematics."
             },
@@ -33,8 +37,20 @@
                 "description" : "Yes, it's geometry. Algebra might be in there too (I don't know any algebra problems)"
             },
             {
+                "classification_name" : "Extension Graph",
+                "description" : "It is the same as Custom, but it categorizes graph problems that are rarely used."
+            },
+            {
+                "classification_name" : "Extension Algorithm",
+                "description" : "It is the same as Custom, but it categorizes algorithm that are rarely used. It also includes algorithms that can do persistent operations (such as undo)."
+            },
+            {
                 "classification_name" : "Custom",
                 "description" : "The data structures and algorithms that are rarely used are categorized here."
+            },
+            {
+                "classification_name" : "Garbage",
+                "description" : "You don't use it anymore. Either it's faster to implement it yourself than to bring it from the library and modify it, or it's"
             }
         ]
     }

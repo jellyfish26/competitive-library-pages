@@ -8,6 +8,9 @@
         "calc_amount": "計算量",
         "constant_multiple": "定数倍",
         "very_light": "とても軽い",
-        "light": "軽い"
+        "light": "軽い",
+        "very_heavy": "とても重い",
+        "normal": "普通",
+        "little_heavy": "少し重い"
     }
 }

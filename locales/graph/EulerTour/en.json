@@ -5,7 +5,6 @@
         "explanation_content": "A sequence of vertices to be traversed in DFS of a tree from its roots. We can handle queries that correspond mainly to partial trees by making the intervals on the tree correspond well to the intervals in the column (see CountUp EulerTour for counting up partial trees).",
         "reference_about": "Please note that we don't accept them except for trees. The type T is the graph's T",
         "2times": "Very Light(2 times)",
-        "graph_template": "Template",
         "constructor_explanation": "Constructor, initialized with graphs and number of vertices",
         "build_explanation": "Start the tour.",
         "index_of_vertex_explanation": "Find the pre-order and post-order of vertices $v$ with half-open intervals",

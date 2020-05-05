@@ -24,7 +24,7 @@
       <v-simple-table>
         <template v-slot:default>
           <thead>
-            <th width="250sp"> {{ $t('function')}} </th>
+            <th> {{ $t('function')}} </th>
             <th width="300sp"> {{ $t('explanation') }} </th>
             <th> {{ $t('calc_amount') }} </th>
             <th> {{ $t('constant_multiple') }} </th>
@@ -53,6 +53,8 @@
 
 <i18n src="~/locales/template/ja.json"></i18n>
 <i18n src="~/locales/template/en.json"></i18n>
+<i18n src="~/locales/names/ja.json"></i18n>
+<i18n src="~/locales/names/en.json"></i18n>
 
 <script>
 import SourceView from '~/components/SourceView.vue'

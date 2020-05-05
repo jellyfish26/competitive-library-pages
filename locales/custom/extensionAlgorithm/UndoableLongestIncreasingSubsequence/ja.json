@@ -1,0 +1,11 @@
+{
+    "ja": {
+        "library_name": "Undo可能な最長増加部分列(Longest-Increasing-Subsequence)",
+        "overview": "タイトルどおりで，Undoすることが可能な最長増加部分列を求めるアルゴリズム",
+        "explanation_content": "updateクエリが投げらた時のアルゴリズムの操作情報を保持しておき，Undoすることを可能にしたライブラリ，updateもundoも$O(\\log N)$で操作することが可能．普通のLISより定数倍が少々あるが気にする必要はない",
+        "reference_about": "型Tは数列の型",
+        "constructor_explanation": "コンストラクタ，$i$がtrueなら狭義単調増加，falseなら広義単調増加",
+        "update_explanation": "$v$が追加されたときの最長増加部分列の長さを返す",
+        "undo_explanation": "1つ前の状態の戻す"
+    }
+}

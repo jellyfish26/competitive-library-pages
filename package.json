@@ -12,6 +12,7 @@
   },
   "dependencies": {
     "@nuxt/typescript-runtime": "^0.4.0",
+    "@nuxtjs/google-analytics": "^2.2.3",
     "axios": "^0.19.2",
     "nuxt": "^2.0.0",
     "nuxt-i18n": "^6.10.1",

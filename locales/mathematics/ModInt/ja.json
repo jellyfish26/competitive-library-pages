@@ -2,6 +2,6 @@
     "ja": {
         "library_name": "ModInt",
         "overview": "modのint",
-        "explanation_content": "加減算と乗算は$O(1)$，除算とべき乗は$O(logN)$で計算できる．オーバーフローが怖いからint64_tにしてるけど別にいらないかも．もうなってるかもしれないけどconstexprにするかも"
+        "explanation_content": "加減算と乗算は$O(1)$，除算とべき乗は$O(\\log{N})$で計算できる．オーバーフローが怖いからint64_tにしてるけど別にいらないかも．もうなってるかもしれないけどconstexprにするかも"
     }
 }

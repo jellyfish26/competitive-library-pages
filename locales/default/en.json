@@ -2,22 +2,6 @@
     "en": {
         "title": "jellyfish26's competitive programming library",
         "right_navigation_drawer": "The navigation here is under construction. I'm going to set up the correct answers and library verify using the library.",
-        "welcome": "Welcome!",
-        "data_strcture": "Data Strcture",
-        "graph": "Graph",
-        "math": "Math",
-        "geometry": "Geometry",
-        "custom": "Custom",
-        "binary_indexed_tree": "Binary-Indexed-Tree",
-        "union_find": "Disjoint-set(Union-Find)",
-        "graph_template": "template",
-        "dijkstra": "Single Source Shortest Path(Dijkstra)",
-        "euler_tour": "EulerTour",
-        "mod_int": "ModInt",
-        "geometry_point": "Point(template)",
-        "enumerative_euler_tour": "CountUp EulerTour",
-        "algorithm": "Algorithm",
-        "cumulative_sum": "Cumulative Sum",
-        "counting_character_interval_mumeric_multiples": "Counting Character Interval Numeric Multiples"
+        "welcome": "Welcome!"
     }
 }
