@@ -2,7 +2,7 @@ import colors from 'vuetify/es5/util/colors'
 import i18n_config from './i18n.config.js'
 
 export default {
-  mode: 'spa',
+  ssr: false,
   /*
   ** Headers of the page
   */
@@ -11,7 +11,7 @@ export default {
     title: process.env.npm_package_name || '',
     script: [
       { src: "https://polyfill.io/v3/polyfill.min.js?features=es6"},
-      { src: "https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS_CHTML"}
+      { src: "https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-MML-AM_CHTML"}
     ],
     meta: [
       { charset: 'utf-8' },
