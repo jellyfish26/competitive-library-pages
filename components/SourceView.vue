@@ -27,7 +27,8 @@
 </template>
 
 <script>
-import '~/plugin/prism.js'
+import Prism from 'vue-prism-component'
+import '~/prism/themes/okaidia.scss'
 import 'prismjs/components/prism-c.js'
 import 'prismjs/components/prism-cpp.js'
 import axios from 'axios'
@@ -35,7 +36,7 @@ import axios from 'axios'
 export default {
   props: ['src', 'link'],
   components: {
-    Prism: () => import('vue-prism-component'),
+    Prism
   },
   data() {
     return {

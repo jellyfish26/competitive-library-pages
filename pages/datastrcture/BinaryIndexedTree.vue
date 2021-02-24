@@ -1,7 +1,7 @@
 <template>
   <LibraryPage
-    sourceRaw="https://raw.githubusercontent.com/jellyfish26/competitive-library/master/datastructure/BinaryIndexedTree.cpp"
-    sourceGitHubLink="https://github.com/jellyfish26/competitive-library/blob/master/datastructure/BinaryIndexedTree.cpp"
+    headerRaw="https://raw.githubusercontent.com/jellyfish26/competitive-library/master/datastructure/BinaryIndexedTree.hpp"
+    headerGitHubLink="https://github.com/jellyfish26/competitive-library/blob/master/datastructure/BinaryIndexedTree.hpp"
     :dependentList="dependent_list"
     :japanese="Japanese.ja"
     :english="English.en"

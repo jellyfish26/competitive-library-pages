@@ -10,10 +10,9 @@
       <h2> {{ $t('explanation') }} </h2>
       <p> {{ $t('explanation_content') }}</p>
     </section>
-
     <section class="mb-12" v-if="dependent_libraries">
       <h2> {{ $t('dependent_library') }} </h2>
-      <ul v-for="depend in dependent_libraries">
+      <ul v-for="depend in dependent_libraries" :key=depend>
         <li><nuxt-link :to="localePath(depend.link)"> {{ $t(depend.name) }} </nuxt-link></li>
       </ul>
     </section>
@@ -42,8 +41,15 @@
     </section>
 
     <section class="mb-12">
-      <h2> {{$t('source_code') }} </h2>
-      <SourceView 
+      <h2> {{$t('header_file') }} </h2>
+      <SourceView
+        :src="headerRaw"
+        :link="headerGitHubLink"
+      />
+    </section>
+    <section class="mb-12" v-if="sourceRaw">
+      <h2> {{$t('source_file') }} </h2>
+      <SourceView
         :src="sourceRaw"
         :link="sourceGitHubLink"
       />
@@ -58,7 +64,15 @@
 import SourceView from '~/components/SourceView.vue'
 
 export default {
-  props: ['sourceRaw', 'sourceGitHubLink', 'dependentList', 'japanese', 'english'],
+  props: [
+    'headerRaw',
+    'haederGitHubLink',
+    'sourceRaw',
+    'sourceGitHubLink',
+    'dependentList',
+    'japanese',
+    'english'
+  ],
   components: {
     SourceView: SourceView,
   },
@@ -69,7 +83,7 @@ export default {
       func_reference: "",
     }
   },
-  mounted() {
+  created() {
       this.$i18n.mergeLocaleMessage('ja', this.japanese)
       this.$i18n.mergeLocaleMessage('en', this.english)
       this.dependent_libraries = this.dependentList.dependent_libraries
