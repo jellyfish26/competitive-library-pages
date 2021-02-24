@@ -8,7 +8,6 @@
         "update_explanation": "Add $x$ to the $i$th value.",
         "sum_explanation": "Find the interval sum of the closed interval $[0, i]$",
         "sum_all_explanation": "Compute the sum of a sequence of numbers.",
-        "query_explanation": "Find the interval sum of the semi-open interval $[l, r)$",
-        "2times": "Very Light (two times)"
+        "query_explanation": "Find the interval sum of the semi-open interval $[l, r)$"
     }
 }

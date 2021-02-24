@@ -7,31 +7,26 @@ export default {
             "function": "BinaryIndexedTree$(size)$",
             "explanation": "constructor_explanation",
             "amount": "$O(N)$",
-            "constant_times": "very_light"
           },
           {
             "function": "update$(i, x)$",
             "explanation": "update_explanation",
             "amount": "$O(logN)$",
-            "constant_times": "very_light"
           },
           {
             "function": "sum$(i)$",
             "explanation": "sum_explanation",
             "amount": "$O(logN)$",
-            "constant_times": "very_light"
           },
           {
             "function": "sum_all$()$",
             "explanation": "sum_all_explanation",
             "amount": "$O(logN)$",
-            "constant_times": "very_light"
           },
           {
             "function": "query$(l, r)$",
             "explanation": "query_explanation",
             "amount": "$O(logN)$",
-            "constant_times": "2times"
           },
         ]
       }

@@ -23,17 +23,15 @@
       <v-simple-table>
         <template v-slot:default>
           <thead>
-            <th width="250sp"> {{ $t('function')}} </th>
-            <th width="300sp"> {{ $t('explanation') }} </th>
+            <th width="350sp"> {{ $t('function')}} </th>
+            <th width="350sp"> {{ $t('explanation') }} </th>
             <th> {{ $t('calc_amount') }} </th>
-            <th> {{ $t('constant_multiple') }} </th>
           </thead>
           <tbody>
             <tr v-for="now_func in func_reference" :key="now_func.function">
               <td> {{ now_func.function }} </td>
               <td> {{ $t(now_func.explanation) }} </td>
               <td> {{ now_func.amount }} </td>
-              <td>  {{ $t(now_func.constant_times) }} </td>
             </tr>
           </tbody>
         </template>
