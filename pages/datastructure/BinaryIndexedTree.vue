@@ -10,9 +10,9 @@
 
 <script>
 import LibraryPage from '~/components/LibraryPage.vue'
-import DependentList from '~/locales/datastrcture/BinaryIndexedTree/list.js'
-import Japanese from '~/locales/datastrcture/BinaryIndexedTree/ja.json'
-import English from '~/locales/datastrcture/BinaryIndexedTree/en.json'
+import DependentList from '~/locales/datastructure/BinaryIndexedTree/list.js'
+import Japanese from '~/locales/datastructure/BinaryIndexedTree/ja.json'
+import English from '~/locales/datastructure/BinaryIndexedTree/en.json'
 
 export default {
   components: {

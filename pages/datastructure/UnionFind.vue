@@ -12,9 +12,9 @@
 
 <script>
 import LibraryPage from '~/components/LibraryPage.vue'
-import DependentList from '~/locales/datastrcture/UnionFind/list.js'
-import Japanese from '~/locales/datastrcture/UnionFind/ja.json'
-import English from '~/locales/datastrcture/UnionFind/en.json'
+import DependentList from '~/locales/datastructure/UnionFind/list.js'
+import Japanese from '~/locales/datastructure/UnionFind/ja.json'
+import English from '~/locales/datastructure/UnionFind/en.json'
 
 export default {
   components: {
