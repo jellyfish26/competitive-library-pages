@@ -1,7 +1,7 @@
 <template>
   <LibraryPage
-    sourceRaw="https://raw.githubusercontent.com/jellyfish26/competitive-library/master/geometry/Point.cpp"
-    sourceGitHubLink="https://github.com/jellyfish26/competitive-library/blob/master/geometry/Point.cpp"
+    headerRaw="https://raw.githubusercontent.com/jellyfish26/competitive-library/master/geometry/Vertex.hpp"
+    headerGitHubLink="https://github.com/jellyfish26/competitive-library/blob/master/geometry/Vertex.hpp"
     :dependentList="dependent_list"
     :japanese="Japanese.ja"
     :english="English.en"
@@ -10,9 +10,9 @@
 
 <script>
 import LibraryPage from '~/components/LibraryPage.vue'
-import DependentList from '~/locales/geometry/Point/list.js'
-import Japanese from '~/locales/geometry/Point/ja.json'
-import English from '~/locales/geometry/Point/en.json'
+import DependentList from '~/locales/geometry/Vertex/list.js'
+import Japanese from '~/locales/geometry/Vertex/ja.json'
+import English from '~/locales/geometry/Vertex/en.json'
 
 export default {
   components: {

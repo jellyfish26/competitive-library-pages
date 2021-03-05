@@ -3,8 +3,8 @@ export default {
     return {
       list: [
         {
-          name: 'geometry_point',
-          to: 'geometry-Point'
+          name: 'geometry_vertex',
+          to: 'geometry-Vertex'
         },
       ]
     }

@@ -13,7 +13,7 @@
         "dijkstra": "Single Source Shortest Path(Dijkstra)",
         "euler_tour": "EulerTour",
         "mod_int": "ModInt",
-        "geometry_point": "Point(template)",
+        "geometry_vertex": "Vertex(template)",
         "enumerative_euler_tour": "CountUp EulerTour",
         "algorithm": "Algorithm",
         "cumulative_sum": "Cumulative Sum",

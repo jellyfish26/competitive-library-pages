@@ -13,7 +13,7 @@
         "dijkstra": "単一始点最短経路(ダイクストラ)",
         "euler_tour": "オイラーツアー",
         "mod_int": "ModInt",
-        "geometry_point": "点(テンプレート)",
+        "geometry_vertex": "点(テンプレート)",
         "enumerative_euler_tour": "数え上げオイラーツアー",
         "algorithm": "アルゴリズム",
         "cumulative_sum": "累積和",
