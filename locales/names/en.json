@@ -17,13 +17,7 @@
         "enumerative_euler_tour": "CountUp EulerTour",
         "algorithm": "Algorithm",
         "cumulative_sum": "Cumulative Sum",
-        "counting_character_interval_mumeric_multiples": "Counting Character Interval Numeric Multiples",
-        "vertex_replenishment_limit_dijkstra": "Vertex Replenishment Limit Dijkstra",
-        "garbage": "Garbage",
-        "specified_square_filled_count": "Specified Square Filled Count",
         "combination": "Combination",
-        "rerooting": "ReRooting",
-        "undoable_longest_increasing_subsequence": "Undoable Longest Increasing Subsequence",
-        "longest_increasing_subsequence_tree": "Longest Increasing Subsequence on Tree"
+        "rerooting": "ReRooting"
     }
 }

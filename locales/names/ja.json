@@ -17,13 +17,7 @@
         "enumerative_euler_tour": "数え上げオイラーツアー",
         "algorithm": "アルゴリズム",
         "cumulative_sum": "累積和",
-        "counting_character_interval_mumeric_multiples": "文字区間の数値倍数",
-        "vertex_replenishment_limit_dijkstra": "頂点で補充可能な移動制限グラフ",
-        "garbage": "ゴミ",
-        "specified_square_filled_count": "指定範囲塗りつぶしカウント",
         "combination": "組み合わせ",
-        "rerooting": "全方位木DP",
-        "undoable_longest_increasing_subsequence": "Undo可能な最長増加部分列",
-        "longest_increasing_subsequence_tree": "木上の最長増加部分列"
+        "rerooting": "全方位木DP"
     }
 }
