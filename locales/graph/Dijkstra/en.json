@@ -2,13 +2,12 @@
     "en": {
         "library_name": "Single Source Shortest Path(Dijkstra)",
         "overview": "Algorithm to find the shortest distance from a single vertex in a graph without negative edges.",
-        "explanation_content": "Algorithm to find the single source shortest path for a graph with no negative edges. Using heap (PriorityQueue) for value insertion and minimum value extraction, we can speed up the process and obtain the single source shortest path with $O(ElogV)$.",
+        "explanation_content": "Algorithm to find the single source shortest path for a graph with no negative edges. Using heap (PriorityQueue) for value insertion and minimum value extraction, we can speed up the process and obtain the single source shortest path with $O(E\\log{V})$.",
         "reference_about": "Note that finding a new shortest path takes $O(V)$ because the initialization of the vector is done.",
         "constructor_explanation": "Constructor, initializing with a weighted graph.",
         "query_overwrite_explanation": "Forcibly find a new shortest distance from $s$ to $e$, regardless of whether the shortest distance has already been obtained. The INF is returned if it cannot be reached.",
         "query_explanation": "Find the shortest distance from $s$ to $e$. The INF is returned if it cannot be reached. If the shortest distance from the starting point is already known, it can be calculated by $O(1)$.",
         "query_noreturn_explanation": "Find the shortest path of all points from $s$ and save the data. Refer to another query function or to the operator[ ].",
-        "operator_reference_explanation": "Refer to the vector where the shortest path of all points from $s$ is stored",
-        "graph_template": "Template"
+        "operator_reference_explanation": "Refer to the vector where the shortest path of all points from $s$ is stored"
     }
 }

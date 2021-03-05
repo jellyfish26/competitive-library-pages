@@ -2,7 +2,7 @@
     "en": {
         "library_name": "CountUp EulerTour",
         "overview": "A data structure that allows fast counting of each sub-tree using an EulerTour.",
-        "explanation_content": "It is a data structure that can be used to countig of each sub-tree with $O(logN)$ using EulerTour.（I don't think it's likely to be used that much. Well, it's a combination with BIT.）",
+        "explanation_content": "It is a data structure that can be used to countig of each sub-tree with $O(\\log{N})$ using EulerTour.（I don't think it's likely to be used that much. Well, it's a combination with BIT.）",
         "reference_about": "It's an EulerTour, so it accept only trees. The type T is the graph T. The type bit_type is the type BIT. Of course, you have to run the build function! (count up or enumeration...?)",
         "same_times": "normal (several times)",
         "constructor_explanation": "Constructor, graph and size initialize Euler tour and BIT, etc.",
@@ -13,9 +13,6 @@
         "reset_count_explanation": "Reset 0",
         "updatet_explanation": "Add $i$ to a sub-tree whose roots are the vertices $r$.",
         "query_pair_explanation": "Compute the counting of the half-open interval $[l, r)$ in the EulerTour",
-        "query_explanation": "Compute the counting for a partial tree with roots at vertex $r$.",
-        "graph_template": "Graph Templates",
-        "euler_tour": "EulerTour",
-        "binary_indexed_tree": "Binary-Indexed-Tree"
+        "query_explanation": "Compute the counting for a partial tree with roots at vertex $r$."
     }
 }

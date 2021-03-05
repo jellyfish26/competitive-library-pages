@@ -9,6 +9,9 @@
         "calc_amount": "Calculated Amount",
         "constant_multiple": "Constant Multiple",
         "very_light": "Very Light",
-        "light": "Light"
+        "light": "Light",
+        "very_heavy": "Very Heavy",
+        "normal": "Normal",
+        "little_heavy": "Little Heavy"
     }
 }

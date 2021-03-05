@@ -2,22 +2,6 @@
     "ja": {
         "title": "くらげ〜の競プロライブラリ",
         "right_navigation_drawer": "ここのナビゲーションは工事中です．ライブラリを使ってACした問題とかライブラリ確認を置くつもり．",
-        "welcome": "ようこそ！",
-        "data_strcture": "データ構造",
-        "graph": "グラフ",
-        "math": "数学",
-        "geometry": "幾何",
-        "custom": "カスタム",
-        "binary_indexed_tree": "Binary-Indexed-Tree",
-        "union_find": "素集合データ構造(Union-Find)",
-        "graph_template": "テンプレート",
-        "dijkstra": "単一始点最短経路(ダイクストラ)",
-        "euler_tour": "オイラーツアー",
-        "mod_int": "ModInt",
-        "geometry_point": "点(テンプレート)",
-        "enumerative_euler_tour": "数え上げオイラーツアー",
-        "algorithm": "アルゴリズム",
-        "cumulative_sum": "累積和",
-        "counting_character_interval_mumeric_multiples": "文字区間の数値倍数"
+        "welcome": "ようこそ！"
     }
 }

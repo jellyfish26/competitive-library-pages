@@ -1,7 +1,7 @@
 {
     "en": {
         "library_name": "BIT(Binary-Indexed-Tree)",
-        "overview": "BIT is a data structure in which the sum of a certain interval can be obtained by $O(log{N})$.",
+        "overview": "BIT is a data structure in which the sum of a certain interval can be obtained by $O(\\log{N})$.",
         "explanation_content": "BIT, also called Fenwick tree, is a data structure that can be used to add values to a sequence of numbers and to find the interval sum in $O(log{N})$, that is, in logarithmic time. Compared to segment trees, the implementation is simpler and the constant times are lighter.",
         "reference_about": "The type T is basically an int, long long or modint",
         "constructor_explanation": "Constructor, initialized with the number of data holdings $size$.",

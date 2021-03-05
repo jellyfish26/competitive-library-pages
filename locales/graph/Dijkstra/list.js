@@ -18,19 +18,19 @@ export default {
           {
             "function": "query_overwrite$(s, e, INF)$",
             "explanation": "query_overwrite_explanation",
-            "amount": "$O(ElogV)$",
+            "amount": "$O(E\\log{V})$",
             "constant_times": "light"
           },
           {
             "function": "query$(s, e, INF)$",
             "explanation": "query_explanation",
-            "amount": "$O(ElogV)$ or $O(1)$",
+            "amount": "$O(E\\log{V})$ or $O(1)$",
             "constant_times": "light"
           },
           {
             "function": "query$(s, INF)$",
             "explanation": "query_noreturn_explanation",
-            "amount": "$O(ElogV)$ or $O(1)$",
+            "amount": "$O(E\\log{V})$ or $O(1)$",
             "constant_times": "light"
           },
           {
