@@ -1,0 +1,11 @@
+{
+    "en": {
+        "library_name": "Matrix",
+        "overview": "Matrix calculations.",
+        "explanation_content": "Matrix operations are possible with operators. Multiply is $O(N^3)$, power is $O(\\log N)$",
+        "reference_about": "Type T is the internal type of the matrix.",
+        "constructor_normal_explanation": "Generate a matrix with $H$ rows and $W$ columns",
+        "constructor_square_explanation": "Generate a matrix with $H$ rows and $W$ columns",
+        "update_explanation": "Change the value of row $h$, column $w$ to $v$"
+    }
+}

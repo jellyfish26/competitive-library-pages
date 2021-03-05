@@ -19,6 +19,7 @@
         "cumulative_sum": "累積和",
         "combination": "組み合わせ",
         "rerooting": "全方位木DP",
-        "segment_tree": "セグメント木"
+        "segment_tree": "セグメント木",
+        "matrix": "行列"
     }
 }

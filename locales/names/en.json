@@ -19,6 +19,7 @@
         "cumulative_sum": "Cumulative Sum",
         "combination": "Combination",
         "rerooting": "ReRooting",
-        "segment_tree": "Segment Tree"
+        "segment_tree": "Segment Tree",
+        "matrix": "Matrix"
     }
 }
