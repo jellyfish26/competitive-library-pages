@@ -3,7 +3,7 @@
         "explanation": "説明",
         "dependent_library": "依存ライブラリ",
         "header_file": "ヘッダファイル",
-        "source_code": "ソースファイル",
+        "source_file": "ソースファイル",
         "reference": "リファレンス",
         "function": "関数",
         "calc_amount": "計算量",

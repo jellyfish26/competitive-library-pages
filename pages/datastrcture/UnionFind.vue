@@ -1,5 +1,7 @@
 <template>
   <LibraryPage
+    headerRaw="https://raw.githubusercontent.com/jellyfish26/competitive-library/master/datastructure/UnionFind.hpp"
+    headerGitHubLink="https://github.com/jellyfish26/competitive-library/blob/master/datastructure/UnionFind.hpp"
     sourceRaw="https://raw.githubusercontent.com/jellyfish26/competitive-library/master/datastructure/UnionFind.cpp"
     sourceGitHubLink="https://github.com/jellyfish26/competitive-library/blob/master/datastructure/UnionFind.cpp"
     :dependentList="dependent_list"
