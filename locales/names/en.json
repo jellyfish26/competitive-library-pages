@@ -20,6 +20,7 @@
         "combination": "Combination",
         "rerooting": "ReRooting",
         "segment_tree": "Segment Tree",
-        "matrix": "Matrix"
+        "matrix": "Matrix",
+        "affine": "Affine Transformation"
     }
 }

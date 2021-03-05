@@ -9,6 +9,10 @@ export default {
         {
           name: 'matrix',
           to: 'geometry-Matrix'
+        },
+        {
+          name: 'affine',
+          to: 'geometry-Affine'
         }
       ]
     }
