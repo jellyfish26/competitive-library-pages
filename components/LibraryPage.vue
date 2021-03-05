@@ -66,7 +66,7 @@ import SourceView from '~/components/SourceView.vue'
 export default {
   props: [
     'headerRaw',
-    'haederGitHubLink',
+    'headerGitHubLink',
     'sourceRaw',
     'sourceGitHubLink',
     'dependentList',
