@@ -9,7 +9,7 @@
         "custom": "カスタム",
         "binary_indexed_tree": "Binary-Indexed-Tree",
         "union_find": "素集合データ構造(Union-Find)",
-        "graph_template": "グラフのテンプレート",
+        "graph_base": "グラフのベース",
         "dijkstra": "単一始点最短経路(ダイクストラ)",
         "euler_tour": "オイラーツアー",
         "mod_int": "ModInt",

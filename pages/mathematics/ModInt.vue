@@ -1,7 +1,7 @@
 <template>
   <LibraryPage
-    sourceRaw="https://raw.githubusercontent.com/jellyfish26/competitive-library/master/math/ModInt.cpp"
-    sourceGitHubLink="https://github.com/jellyfish26/competitive-library/blob/master/math/ModInt.cpp"
+    headerRaw="https://raw.githubusercontent.com/jellyfish26/competitive-library/master/math/ModInt.hpp"
+    headerGitHubLink="https://github.com/jellyfish26/competitive-library/blob/master/math/ModInt.hpp"
     :dependentList="dependent_list"
     :japanese="Japanese.ja"
     :english="English.en"

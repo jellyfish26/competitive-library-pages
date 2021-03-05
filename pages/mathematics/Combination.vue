@@ -1,7 +1,7 @@
 <template>
   <LibraryPage
-    sourceRaw="https://raw.githubusercontent.com/jellyfish26/competitive-library/master/math/Combination.cpp"
-    sourceGitHubLink="https://github.com/jellyfish26/competitive-library/blob/master/math/Combination.cpp"
+    headerRaw="https://raw.githubusercontent.com/jellyfish26/competitive-library/master/math/Combination.hpp"
+    headerGitHubLink="https://github.com/jellyfish26/competitive-library/blob/master/math/Combination.hpp"
     :dependentList="dependent_list"
     :japanese="Japanese.ja"
     :english="English.en"

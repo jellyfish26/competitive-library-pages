@@ -2,6 +2,12 @@ export default {
   data () {
     return {
       reference_about: "reference_about",
+      dependent_libraries: [
+        {
+          "name": "matrix",
+          "link": "geometry-Matrix"
+        },
+      ],
       func_reference: [
         {
           "function": "Affine$()$",

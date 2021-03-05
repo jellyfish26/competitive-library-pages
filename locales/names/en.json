@@ -9,7 +9,7 @@
         "custom": "Custom",
         "binary_indexed_tree": "Binary-Indexed-Tree",
         "union_find": "Disjoint-set(Union-Find)",
-        "graph_template": "Graph Template",
+        "graph_base": "Graph Base",
         "dijkstra": "Single Source Shortest Path(Dijkstra)",
         "euler_tour": "EulerTour",
         "mod_int": "ModInt",

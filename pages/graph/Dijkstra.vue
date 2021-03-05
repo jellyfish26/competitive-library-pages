@@ -1,7 +1,7 @@
 <template>
   <LibraryPage
-    sourceRaw="https://raw.githubusercontent.com/jellyfish26/competitive-library/master/graph/Dijkstra.cpp"
-    sourceGitHubLink="https://github.com/jellyfish26/competitive-library/blob/master/graph/Dijkstra.cpp"
+    headerRaw="https://raw.githubusercontent.com/jellyfish26/competitive-library/master/graph/Dijkstra.hpp"
+    headerGitHubLink="https://github.com/jellyfish26/competitive-library/blob/master/graph/Dijkstra.hpp"
     :dependentList="dependent_list"
     :japanese="Japanese.ja"
     :english="English.en"

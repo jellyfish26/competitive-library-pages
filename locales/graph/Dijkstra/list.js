@@ -4,8 +4,8 @@ export default {
         reference_about: "reference_about",
         dependent_libraries: [
           {
-            "name": "graph_template",
-            "link": "graph-template"
+            "name": "graph_base",
+            "link": "graph-Base"
           },
         ],
         func_reference: [

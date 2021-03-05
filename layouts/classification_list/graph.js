@@ -3,8 +3,8 @@ export default {
     return {
       list: [
         {
-          name: 'graph_template',
-          to: 'graph-template'
+          name: 'graph_base',
+          to: 'graph-Base'
         },
         {
           name: 'dijkstra',

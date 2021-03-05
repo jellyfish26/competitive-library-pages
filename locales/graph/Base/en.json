@@ -1,6 +1,6 @@
 {
     "en": {
-        "library_name": "Graph Template",
+        "library_name": "Base of graph",
         "overview": "Library needed to handle graph problems. Most of the libraries for graphs depend on this library.",
         "explanation_content": "A library needed to deal with graph problems. Where edge is an edge, UnWeightedGraph is a graph with no cost, and WeightedGraph is a graph with a cost.",
         "unweight_constructor_explanation": "Constructor, initialized with the number of data holdings $size$, creating an undirected graph if $i$ is false, or a directed graph if $i$ is true.",
