@@ -1,0 +1,16 @@
+{
+    "ja": {
+        "library_name": "アフィン変換",
+        "overview": "アフィン変換を行う行列",
+        "explanation_content": "座標の移動を、行列を用いて行う。",
+        "reference_about": "型Tは座標の型",
+        "constructor_normal_explanation": "アフィン変換に関する3行3列の単位行列を生成",
+        "gen_scaling_explanation": "x軸方向に$x$倍, y軸方向に$y$倍移動する行列を生成",
+        "gen_translation_explanation": "x軸方向に$x$、y軸方向に$y$平行移動する行列を生成",
+        "gen_rotate_explanation": "$\\theta$度回転する行列を生成",
+        "gen_rot90_explanation": "$t$回、90度反時計回りに回転する行列を生成",
+        "gen_xskew_explanation": "x軸から$\\theta$度スキューした行列を生成",
+        "gen_yskew_explanation": "y軸から$\\theta$度スキューした行列を生成",
+        "calc_explanation": "$x$, $y$から移動した行列を返す"
+    }
+}

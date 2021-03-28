@@ -4,11 +4,15 @@ export default {
       list: [
         {
           name: 'binary_indexed_tree',
-          to: 'datastrcture-BinaryIndexedTree'
+          to: 'datastructure-BinaryIndexedTree'
         },
         {
           name: 'union_find',
-          to: 'datastrcture-UnionFind'
+          to: 'datastructure-UnionFind'
+        },
+        {
+          name: 'segment_tree',
+          to: 'datastructure-SegmentTree'
         }
       ]
     }

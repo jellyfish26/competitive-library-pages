@@ -1,0 +1,13 @@
+{
+    "en": {
+        "library_name": "Segment Tree",
+        "overview": "A segment tree is a data structure that can be processed by $O(\\log N)$ for a query on an arbitrary interval and a $O(\\log N)$ for an arbitrary index.",
+        "explanation_content": "A segment tree can query an arbitrary interval based on a merge function and update an arbitrary index by $O(\\log N)$. the merge function must satisfy the monoid.",
+        "reference_about": "The type M is a monoid; the return value and argument type of the merge function",
+        "constructor_normal_explanation": "Constructor, number of holdings $s$, merge function $f$, and unit source $m$. The initial state of all arrays is unit-based.",
+        "constructor_vector_explanation": "Constructor, merge function $f$ and unit $m$ to initialize. Makes the initial state of the array $v$.",
+        "update_explanation": "Change the $i$th value to $v$.",
+        "query_explanation": "Querying the interval $[l, r)$ semi-open",
+        "operator_reference_explanation": "Returns the $i$th element."
+    }
+}

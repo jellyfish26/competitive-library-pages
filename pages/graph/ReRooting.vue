@@ -1,7 +1,7 @@
 <template>
   <LibraryPage
-    sourceRaw="https://raw.githubusercontent.com/jellyfish26/competitive-library/master/graph/ReRooting.cpp"
-    sourceGitHubLink="https://github.com/jellyfish26/competitive-library/blob/master/graph/ReRooting.cpp"
+    headerRaw="https://raw.githubusercontent.com/jellyfish26/competitive-library/master/graph/ReRooting.hpp"
+    headerGitHubLink="https://github.com/jellyfish26/competitive-library/blob/master/graph/ReRooting.hpp"
     :dependentList="dependent_list"
     :japanese="Japanese.ja"
     :english="English.en"

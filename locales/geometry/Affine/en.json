@@ -1,0 +1,16 @@
+{
+    "en": {
+        "library_name": "Affine Transformation",
+        "overview": "Matrix for affine transformation",
+        "explanation_content": "Move the coordinates using a matrix",
+        "reference_about": "Type T is the type of coordinates",
+        "constructor_normal_explanation": "Generating a matrix of three rows and three columns relating affine transformation",
+        "gen_scaling_explanation": "Generate a matrix that moves $x$ times in the x-axis direction and $y$ times in the y-axis direction",
+        "gen_translation_explanation": "Generate a matrix that translates $x$ in the x-axis direction and $y$ in the y-axis direction",
+        "gen_rotate_explanation": "Generate a matrix that rotates $\\theta$ degrees",
+        "gen_rot90_explanation": "Generates a matrix that rotates 90 degrees counterclockwise $t$ times",
+        "gen_xskew_explanation": "Generate a $\\theta$ degree skewed matrix from the x-axis",
+        "gen_yskew_explanation": "Generate a $\\theta $ degree skewed matrix from the y-axis",
+        "calc_explanation": "Returns a matrix moved from $x$, $y$"
+    }
+}

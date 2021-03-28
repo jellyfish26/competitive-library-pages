@@ -10,10 +10,9 @@
       <h2> {{ $t('explanation') }} </h2>
       <p> {{ $t('explanation_content') }}</p>
     </section>
-
     <section class="mb-12" v-if="dependent_libraries">
       <h2> {{ $t('dependent_library') }} </h2>
-      <ul v-for="depend in dependent_libraries">
+      <ul v-for="depend in dependent_libraries" :key=depend>
         <li><nuxt-link :to="localePath(depend.link)"> {{ $t(depend.name) }} </nuxt-link></li>
       </ul>
     </section>
@@ -24,17 +23,15 @@
       <v-simple-table>
         <template v-slot:default>
           <thead>
-            <th> {{ $t('function')}} </th>
-            <th width="300sp"> {{ $t('explanation') }} </th>
+            <th width="350sp"> {{ $t('function')}} </th>
+            <th width="350sp"> {{ $t('explanation') }} </th>
             <th> {{ $t('calc_amount') }} </th>
-            <th> {{ $t('constant_multiple') }} </th>
           </thead>
           <tbody>
             <tr v-for="now_func in func_reference" :key="now_func.function">
               <td> {{ now_func.function }} </td>
               <td> {{ $t(now_func.explanation) }} </td>
               <td> {{ now_func.amount }} </td>
-              <td>  {{ $t(now_func.constant_times) }} </td>
             </tr>
           </tbody>
         </template>
@@ -42,8 +39,15 @@
     </section>
 
     <section class="mb-12">
-      <h2> {{$t('source_code') }} </h2>
-      <SourceView 
+      <h2> {{$t('header_file') }} </h2>
+      <SourceView
+        :src="headerRaw"
+        :link="headerGitHubLink"
+      />
+    </section>
+    <section class="mb-12" v-if="sourceRaw">
+      <h2> {{$t('source_file') }} </h2>
+      <SourceView
         :src="sourceRaw"
         :link="sourceGitHubLink"
       />
@@ -60,7 +64,15 @@
 import SourceView from '~/components/SourceView.vue'
 
 export default {
-  props: ['sourceRaw', 'sourceGitHubLink', 'dependentList', 'japanese', 'english'],
+  props: [
+    'headerRaw',
+    'headerGitHubLink',
+    'sourceRaw',
+    'sourceGitHubLink',
+    'dependentList',
+    'japanese',
+    'english'
+  ],
   components: {
     SourceView: SourceView,
   },
@@ -71,7 +83,7 @@ export default {
       func_reference: "",
     }
   },
-  mounted() {
+  created() {
       this.$i18n.mergeLocaleMessage('ja', this.japanese)
       this.$i18n.mergeLocaleMessage('en', this.english)
       this.dependent_libraries = this.dependentList.dependent_libraries

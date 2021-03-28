@@ -2,7 +2,8 @@
     "ja": {
         "explanation": "説明",
         "dependent_library": "依存ライブラリ",
-        "source_code": "ソースコード",
+        "header_file": "ヘッダファイル",
+        "source_file": "ソースファイル",
         "reference": "リファレンス",
         "function": "関数",
         "calc_amount": "計算量",

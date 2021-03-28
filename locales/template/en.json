@@ -2,7 +2,8 @@
     "en": {
         "explanation": "Explanation",
         "dependent_library": "Dependent Library",
-        "source_code": "Source Code",
+        "header_file": "Header File",
+        "source_file": "Source File",
         "reference": "Reference",
         "function": "Function",
         "calc_amount": "Calculated Amount",

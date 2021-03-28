@@ -1,0 +1,11 @@
+{
+    "ja": {
+        "library_name": "行列",
+        "overview": "行列の計算を行う。",
+        "explanation_content": "演算子オーバーロードをしている。乗算は$O(N^3)$、べき乗は$O(\\log N)$",
+        "reference_about": "型Tは行列の内部型",
+        "constructor_normal_explanation": "$H$行$W$列の行列を生成",
+        "constructor_square_explanation": "$N$行$N$列の行列を生成",
+        "update_explanation": "$h$行$w$列の値を$v$に変更する"
+    }
+}

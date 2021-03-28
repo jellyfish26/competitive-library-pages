@@ -14,6 +14,7 @@
       <div
         v-for="now_algorithm in $t('algorithms')"
         class="mx-auto"
+        v-bind:key="now_algorithm.classification_name"
       >
         <h3> {{ now_algorithm.classification_name }} </h3>
         <p> {{ now_algorithm.description }} </p>
